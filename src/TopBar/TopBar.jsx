@@ -9,7 +9,7 @@ function TopBar() {
             <Link to="/" className='topListItem'>Home</Link>
             <Link to="/espaco" className='topListItem'>O Espaço</Link>
             <Link to="/reservas" className='topListItem'>Reservas</Link>
-            <Link to="/contato" className='topListItem'>Contat</Link>
+            <Link to="/contato" className='topListItem'>Contato</Link>
            
         </ul>
 
