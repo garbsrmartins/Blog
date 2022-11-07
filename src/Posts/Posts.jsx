@@ -8,8 +8,6 @@ function Posts() {
     <div>
                   
             
-            <p className='title'>Conheça nossas instalações</p>
-            <a className='postButton' href="/espaço"> Clique aqui </a>
           <img className='postImg' src={pool} alt="alt"></img>
           
          
