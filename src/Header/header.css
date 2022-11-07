@@ -33,3 +33,14 @@ width: 40%;
         margin-top: 20px;
         object-fit: cover;
     }
+    @media (max-width: 780px){
+
+        .headerTitleSm{
+            position: absolute;
+            top:20%;
+                width: 40%;
+                display: none;
+            
+            }
+
+    }
