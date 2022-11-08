@@ -58,7 +58,7 @@
   .nav-logo {
 
    height: 50px;
-   margin-left: 40px;
+   margin-left: 20px;
   }
   
   @media (max-width: 700px) {
@@ -72,7 +72,7 @@
       width: 100%;
       height: auto;
       transform: translateX(-100%);
-      
+      margin-right: 20em;
       
       
     }
@@ -93,6 +93,7 @@
       align-items: center;
       justify-content: center;
       cursor: pointer;
+      margin-right: 2em;
     }
   
     .nav-toggle > .bar {
@@ -101,6 +102,7 @@
       height: 2px;
       background: #000000;
       transition: all 0.45s ease-in-out;
+      
      
     }
   
