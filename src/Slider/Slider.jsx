@@ -1,7 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import './Slider.css'
-import { useState, useRef, useEffect } from 'react'
 
 import mar from "../images/Mar.jpeg"
 import pool from "../images/pool.webp"
@@ -10,14 +9,10 @@ const images =[mar,pool,mar,mar]
 
 function Slider() {
 
-        const carousel = useRef ();
-        const [width, setWidth]= useState(0)
-        useEffect(()=>{
-                console.log(carousel.current?.scrollWidth, carousel.current?.offsetWidth)
-                setWidth(carousel.current?.scrollWidth-carousel.current?.offsetWidth)
+        
 
 
-        },[])
+       
 
 
   return (

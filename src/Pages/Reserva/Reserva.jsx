@@ -1,16 +1,11 @@
 import './reserva.css'
 import pool from '../../images/pool.webp'
 import Slider from '../../Slider/Slider'
-import {useState, useEffect, useRef} from 'react'
+
 
 function Reserva() {
 
-  const carousel =useRef();
-  useEffect (()=>{
-      console.log(carousel.current) 
-
-
-  },[])
+ 
   return (
     <>
     <div>
