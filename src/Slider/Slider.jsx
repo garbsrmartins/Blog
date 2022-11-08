@@ -1,6 +1,11 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import './Slider.css'
+import { useEffect} from 'react'
+import { useState } from 'react'
+import { useRef } from 'react'
+
+
 
 import image1 from "../images/room-azul/1.webp"
 
@@ -13,17 +18,29 @@ import image7 from "../images/room-azul/7.webp"
 
 const images =[image1, image3,image4,image5,image6,image7]
 
+
+
 function Slider() {
 
+   
+    const [width, setWidth] = useState(0);
+    const carousel = useRef();
+    const carouselMob = useRef();
+
+    useEffect (()=>{
+            console.log (carousel.current?.scrollWidth)
+            setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
+            
+    },[])
 
 
   return (
     <>
     <div className='Slider'>
-      <motion.div className='carousel' whileTap={{cursor:"grabbing"}}>
+      <motion.div ref={carousel} className='carousel' whileTap={{cursor:"grabbing"}}>
             <motion.div className='inner'
             drag="x"
-            dragConstraints={{right:0, left:-3000}}
+            dragConstraints={{right:0, left:-width}}
             >
 
                     {images.map (image => (
@@ -41,10 +58,10 @@ function Slider() {
       </motion.div>
     </div>
     <div className='SliderMobile'>
-    <motion.div className='carousel' whileTap={{cursor:"grabbing"}}>
+    <motion.div ref={carouselMob} className='carousel' whileTap={{cursor:"grabbing"}}>
           <motion.div className='inner'
           drag="x"
-          dragConstraints={{right:0, left:-3300}}
+          dragConstraints={{right:0, left:-width}}
           >
 
                   {images.map (image => (
