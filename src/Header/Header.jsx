@@ -1,15 +1,17 @@
 import React from 'react'
 import './header.css'
 import mar from '../images/Mar.jpeg'
-import logo from '../images/LogoAruna2.png'
+
 
 
 function Header() {
   return (
     <div className='header'>
         <div className="headerTitles">
-          <img className='headerTitleSm' src={logo} alt='texto  '/>
+          ArunA<br></br>
+          <p className='headerSubtitles'>Espaço regenerativo</p>
         </div>
+      
       <img className='headerImg' src={mar} alt=''/>
     </div>
   )

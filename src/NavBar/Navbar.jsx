@@ -4,12 +4,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
-      <span className="nav-logo">Aruna</span>
+      <a href="/"className="nav-logo">ArunA</a>
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/service">Service</a>
-        <a href="/contact">Contact</a>
+        <a href="/">Home</a>
+        <a href="/espaco">O espaço</a>
+        <a href="/reservas">Reservas</a>
+        <a href="/contato">Contato</a>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}
