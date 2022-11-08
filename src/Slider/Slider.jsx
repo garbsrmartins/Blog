@@ -28,7 +28,7 @@ function Slider() {
     const carouselMob = useRef();
 
     useEffect (()=>{
-            console.log (carousel.current?.scrollWidth)
+            console.log (carouselMob.current?.scrollWidth - carouselMob.current?.offsetWidth)
             setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
             
     },[])
@@ -57,27 +57,7 @@ function Slider() {
             </motion.div>
       </motion.div>
     </div>
-    <div className='SliderMobile'>
-    <motion.div ref={carouselMob} className='carousel' whileTap={{cursor:"grabbing"}}>
-          <motion.div className='inner'
-          drag="x"
-          dragConstraints={{right:0, left:-width}}
-          >
-
-                  {images.map (image => (
-
-                        <motion.div key={image} className='item'>
-
-                          <img src={image} alt="Aruna"/>
-
-                        </motion.div>
-
-
-                  ))}
-
-          </motion.div>
-    </motion.div>
-  </div>
+     
   </>
   )
 }

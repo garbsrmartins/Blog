@@ -57,7 +57,7 @@ flex-direction: row;
         .Slider {
             width: 100%; 
                   
-           display: none;
+           display: flex;
             margin: 0 auto;
             min-height: auto;
             align-items: center;
