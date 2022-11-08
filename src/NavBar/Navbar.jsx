@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className={`nav-items ${isOpen && "open"}`}>
         <a href="/">Home</a>
         <a href="/espaco">O espaço</a>
-        <a href="/reservas">Reservas</a>
+        <a href="/reserva">Reservas</a>
         <a href="/contato">Contato</a>
       </div>
       <div
