@@ -1,6 +1,8 @@
 import './reserva.css'
 import pool from '../../images/pool.webp'
 import Slider from '../../Slider/Slider'
+import Slider1 from '../../Slider/Slider-Verde'
+import Slider2 from '../../Slider/Slider-Prive'
 
 
 function Reserva() {
@@ -9,11 +11,11 @@ function Reserva() {
   return (
     <>
     <div>
-      <div className="headerTitles">
+      <div className="reservaTitles">
           Reservas<br></br>
           
         </div>
-      <img className='headerImg' src={pool} alt=''/>
+      <img className='reservaImg' src={pool} alt=''/>
     </div>
     
    
@@ -22,7 +24,9 @@ function Reserva() {
     <div className='reservaQuartos'> Quarto Arara Azul</div>
     <Slider/>   
     <div className='reservaQuartos'> Quarto Arara Verde</div>
+    <Slider1/>
     <div className='reservaQuartos'> Quarto Arara Privê</div>
+    <Slider2/>
     </>
   )
 }

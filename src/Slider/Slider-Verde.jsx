@@ -2,18 +2,18 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import './Slider.css'
 
-import image1 from "../images/room-azul/1.webp"
+import image1 from "../images/room-verde/1.webp"
+import image2 from "../images/room-verde/2.webp"
+import image3 from "../images/room-verde/3.webp"
+import image4 from "../images/room-verde/4.webp"
+import image5 from "../images/room-verde/5.webp"
+import image6 from "../images/room-verde/6.webp"
 
-import image3 from "../images/room-azul/3.webp"
-import image4 from "../images/room-azul/4.webp"
-import image5 from "../images/room-azul/5.webp"
-import image6 from "../images/room-azul/6.webp"
-import image7 from "../images/room-azul/7.webp"
 
 
-const images =[image1, image3,image4,image5,image6,image7]
+const images =[image1, image2,image3,image4,image5,image6,]
 
-function Slider() {
+function Slider1() {
 
 
 
@@ -65,5 +65,5 @@ function Slider() {
   )
 }
 
-export default Slider
+export default Slider1
 

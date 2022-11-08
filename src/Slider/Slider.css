@@ -3,11 +3,21 @@
           
    display: flex;
     margin: 0 auto;
-    min-height: auto;
+   
     align-items: center;
     justify-content: center;
+    object-fit: cover;
     
 }
+
+.SliderMobile {
+    width: 100%; 
+          
+   display: none;
+    margin: 0 auto;
+    min-height: auto;
+    align-items: center;
+    justify-content: center;}
 
 .inner{
 
@@ -16,14 +26,18 @@
 
 .item{
 
-min-width: 1000px;
+min-width: 700px;
+max-height: 500px;
 padding: 14px;
+display: flex;
+flex-direction: row;
+
 }
 
 .item img {
 
     width:100%;
-    height: 90%;
+   object-fit: cover;
     border-radius: 12px;
     pointer-events: none;
 }
@@ -39,6 +53,20 @@ padding: 14px;
 
         min-width: 90vw;
         padding: 14px;
+        }
+        .Slider {
+            width: 100%; 
+                  
+           display: none;
+            margin: 0 auto;
+            min-height: auto;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .SliderMobile{
+
+            display: flex;
         }
 
 }
