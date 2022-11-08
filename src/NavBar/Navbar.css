@@ -55,11 +55,10 @@
     display: none;
   }
 
-  .navlogo {
+  .nav-logo {
 
-    text-decoration: none;
-    padding: 1em;
-    font-size: 2em;
+   height: 50px;
+   margin-left: 40px;
   }
   
   @media (max-width: 700px) {
