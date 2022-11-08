@@ -32,3 +32,13 @@ padding: 14px;
     cursor: grab;
     overflow: hidden;
 }
+
+@media (max-width:800px) {
+    
+    .item{
+
+        min-width: 90vw;
+        padding: 14px;
+        }
+
+}

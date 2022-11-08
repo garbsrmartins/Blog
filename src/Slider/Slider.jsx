@@ -9,10 +9,6 @@ const images =[mar,pool,mar,mar]
 
 function Slider() {
 
-        
-
-
-       
 
 
   return (
