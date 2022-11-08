@@ -1,6 +1,9 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import './Slider.css'
+import { useEffect} from 'react'
+import { useState } from 'react'
+import { useRef } from 'react'
 
 import image1 from "../images/room-aruna/1.webp"
 import image2 from "../images/room-aruna/2.webp"
@@ -21,15 +24,26 @@ const images =[image1, image2,image3,image4,image5,image6,image7,image8, image9,
 
 function Slider2() {
 
+  const [width, setWidth] = useState(0);
+    const carousel = useRef();
+    const carouselMob = useRef();
+
+    useEffect (()=>{
+            console.log (carouselMob.current?.scrollWidth - carouselMob.current?.offsetWidth)
+            setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
+            
+    },[])
+
+
 
 
   return (
     <>
     <div className='Slider'>
-      <motion.div className='carousel' whileTap={{cursor:"grabbing"}}>
+      <motion.div ref={carousel} className='carousel' whileTap={{cursor:"grabbing"}}>
             <motion.div className='inner'
             drag="x"
-            dragConstraints={{right:0, left:-7000}}
+            dragConstraints={{right:0, left:-width}}
             >
 
                     {images.map (image => (
@@ -46,27 +60,7 @@ function Slider2() {
             </motion.div>
       </motion.div>
     </div>
-    <div className='SliderMobile'>
-    <motion.div className='carousel' whileTap={{cursor:"grabbing"}}>
-          <motion.div className='inner'
-          drag="x"
-          dragConstraints={{right:0, left:-7400}}
-          >
-
-                  {images.map (image => (
-
-                        <motion.div key={image} className='item'>
-
-                          <img src={image} alt="Aruna"/>
-
-                        </motion.div>
-
-
-                  ))}
-
-          </motion.div>
-    </motion.div>
-  </div>
+    
   </>
   )
 }
