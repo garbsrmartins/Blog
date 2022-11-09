@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ffffff;
+    background: rgba(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     position: fixed;
     z-index: 3;
@@ -61,6 +61,13 @@
    margin-left: 20px;
   }
   
+.logoNav {
+
+  text-decoration: none;
+  display: block;
+}
+
+
   @media (max-width: 700px) {
     .Navbar > .nav-items {
       position: absolute;

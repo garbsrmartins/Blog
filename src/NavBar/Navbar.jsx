@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import lotus from '../images/Lotus.png'
+import lotus from '../images/LogoLotus.png'
 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
+      
       <a href="/"><img  className="nav-logo"  src={lotus} alt=""/></a>
       <div className={`nav-items ${isOpen && "open"}`}>
         <a href="/">Home</a>

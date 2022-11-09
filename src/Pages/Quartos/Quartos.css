@@ -1,34 +1,20 @@
 .reservaTitles {
     text-align: center;
-        display: flex;
+        display: block;
+        padding: 2em 2em;
         flex-direction: column;
         align-items: center;
         font-family: 'Montserrat', sans-serif;
-        position: absolute;
-        top:20%;
-        font-size: 5vw;
-        width: 40%;
+        background-image: url(../../images/pool.webp);
+
+        font-size: 3vw;
+       
         z-index: 1 ;
-        margin:auto 30%;
+       margin:auto;
         
     }
 
-    .blue {
-
-        height: 7px;
-        background-color: rgb(142, 130, 255);
-    }
-
-    .green {
-
-        height: 7px;
-        background-color: rgb(105, 204, 105);
-    }
-    .yellow {
-
-        height: 7px;
-        background-color: rgb(255, 255, 123);
-    }
+   
 
     .descriptionBlue {
 
@@ -45,7 +31,7 @@
         font-family: Montserrat;
         padding: 2em 1em;
         text-align: left;
-        background-color: rgb(185, 255, 185);
+        background-color: rgb(210, 248, 210);
     }
 
     .descriptionYellow {
@@ -81,7 +67,7 @@
         font-family: Montserrat;
         font-size: 2em;
         padding: 2em;
-        background:rgb(222, 255, 222);
+        background:rgb(240, 255, 240);
         margin-bottom: 20px;
     }
     .reservaImg {
@@ -96,19 +82,6 @@
 
     @media (max-width: 1000px) {
 
-        .reservaTitles {
-            text-align: center;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                font-family: 'Montserrat', sans-serif;
-                position: absolute;
-                top:20%;
-                font-size: 9vw;
-                width: 70%;
-                z-index: 1 ;
-                margin:auto 15%;
-            }
             
             
 

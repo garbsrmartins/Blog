@@ -1,28 +1,34 @@
 import './Quartos.css'
-import pool from '../../images/pool.webp'
+
+
+
+import Footer from '../../Footer/Footer'
 import Slider from '../../Slider/Slider'
 import Slider1 from '../../Slider/Slider-Verde'
 import Slider2 from '../../Slider/Slider-Prive'
 
 
-function Quartos() {
 
+
+
+function Quartos() {
+  
  
   return (
-    <>
-    <div>
-      <div className="reservaTitles">
-         Quartos<br></br>
-          
-        </div>
-      <img className='reservaImg' src={pool} alt=''/>
-    </div>
+
+    <div >
+      
+      <div className='reservaTitles'>
+        Quartos
+      </div>
+     
+      
+  
     
    
 
 
-    <div className='reservaQuartosBlue'> Quarto Arara Azul</div>
-    <Slider/> 
+    <div className='reservaQuartosBlue'>Arara Azul</div>
     <div className='descriptionBlue'>12m² em alvenaria<br></br>
 piso em porcelanato<br></br>
 banheiro<br></br>
@@ -33,9 +39,10 @@ duas janelas bem ventiladas<br></br>
 vista para o jardim<br></br>
 varanda social<br></br>
 inclui café para 2</div>  
-<hr className='blue'></hr>
-    <div className='reservaQuartosVerde'> Quarto Arara Verde</div>
-    <Slider1/>
+    <Slider/> 
+  
+
+    <div className='reservaQuartosVerde'> Arara Verde</div>
     <div className='descriptionGreen'>
     15m² em madeiramento rústico<br></br>
 assoalho de madeira<br></br>
@@ -49,10 +56,10 @@ vista para a mata<br></br>
 varanda social<br></br>
 inclui café para 2<br></br>
     </div>
+    <Slider1/>
+    
 
-    <hr className='green'></hr>
-    <div className='reservaQuartosYellow'> Quarto Arara Privê</div>
-    <Slider2/>
+    <div className='reservaQuartosYellow'>  Arara Privê</div>
     <div className='descriptionYellow'>
     50m² em níveis <br></br>
 construção mista inédita (pirâmide)<br></br>
@@ -67,8 +74,11 @@ excelente iluminação e ventilção<br></br><br></br>
 Este quarto é exclusivo pela privacidade e comodidade, mas frequentemente recebe visitas inesperadas de adoráveis macaquinhos na varanda.<br></br>
     </div>
 
+    <Slider2/>
+    <Footer/>
     
-    </>
+    
+    </div>
   )
 }
 
