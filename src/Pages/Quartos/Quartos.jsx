@@ -40,6 +40,7 @@ vista para o jardim<br></br>
 varanda social<br></br>
 inclui café para 2</div>  
     <Slider/> 
+   
   
 
     <div className='reservaQuartosVerde'> Arara Verde</div>

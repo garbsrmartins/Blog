@@ -1,5 +1,6 @@
 .Slider {
-    width: 100%; 
+    width: 100%;
+    max-width: 80vw; 
           
    display: flex;
     margin: 0 auto;
@@ -7,7 +8,14 @@
     align-items: center;
     justify-content: center;
     object-fit: cover;
+    background-color: white;
     
+}
+
+.background{
+
+    background-color: white;
+    width: 100%;
 }
 
 .SliderMobile {
@@ -26,8 +34,8 @@
 
 .item{
 
-min-width: 700px;
-max-height: 500px;
+min-width: 80vw;
+max-height:70vh;
 padding: 14px;
 display: flex;
 flex-direction: row;

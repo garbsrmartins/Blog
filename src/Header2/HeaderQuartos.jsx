@@ -10,9 +10,9 @@ const useStyles = makeStyles ((theme) => ({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '70vh',
+        height: '100vh',
         width: '100%',
-        fontSize: '5em'
+        fontSize: '5em',
         fontFamily: 'Montserrat',
         
         
@@ -35,7 +35,7 @@ const classes = useStyles ();
   return (
     <div>
     <div className={classes.root}>
-      Quartos
+      Acomodações
     
     </div>
     

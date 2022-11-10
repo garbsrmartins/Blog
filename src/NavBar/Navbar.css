@@ -104,6 +104,15 @@
       
       
     }
+    .topLeft {
+    
+      display: none;
+      align-items: center;
+      justify-content: center;
+      
+     
+      
+    }
   
     .Navbar > .nav-items > a::before {
         background: transparent;

@@ -10,7 +10,11 @@ const useStyles = makeStyles((theme) => ({
         minHeight: '100vh',
         backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/Mar.jpeg'})` ,
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
+        backgroundSize: '100%',
+        [theme.breakpoints.down("xs")]: {
+            backgroundSize: 'cover',
+               
+        }
         
 
     }

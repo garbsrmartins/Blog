@@ -36,6 +36,7 @@ function Slider() {
 
   return (
     <>
+    <div className='background'>
     <div className='Slider'>
       <motion.div ref={carousel} className='carousel' whileTap={{cursor:"grabbing"}}>
             <motion.div className='inner'
@@ -56,6 +57,7 @@ function Slider() {
 
             </motion.div>
       </motion.div>
+    </div>
     </div>
      
   </>
