@@ -15,6 +15,11 @@ const Navbar = () => {
         <a href="/quartos">Quartos</a>
         <a href="/contato">Contato</a>
       </div>
+      <div className="topLeft">
+        <i className="topIcon fa-brands fa-facebook"></i>
+        <i className="topIcon fa-brands fa-instagram"></i>
+        <i className="topIcon fa-brands fa-airbnb"></i>
+      </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}
         onClick={() => setIsOpen(!isOpen)}

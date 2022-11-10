@@ -12,19 +12,23 @@ const useStyles = makeStyles ((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh',
-        width: '100%'
+        width: '100%',
+        flexDirection: 'column'
         
         
     },
 
-    goDown: {
+       subtitle: {
 
-            color: 'black',
-            fontSize: '4em',
-            justifyContent: 'center',
-            alignItems: 'center',
-            margin: 'auto'
-    }
+      width: '100%',
+      fontSize: '2em',
+      textAlign: 'center',
+      fontFamily:'Montserrat',
+      
+
+    },
+
+    
 
 }))
 
@@ -34,7 +38,10 @@ const classes = useStyles ();
   return (
     <div>
     <div className={classes.root}>
+      <div className={classes.logoback}>
       <img className='imgHeader' src={logo} alt="texto"/>
+      </div>
+      <p className={classes.subtitle}>Florianópolis - Santa Catarina - Brasil</p>
     
     </div>
     

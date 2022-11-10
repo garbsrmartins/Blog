@@ -10,6 +10,7 @@
     top:0;
     width: 100%;
     margin-right: 5em; 
+    
      
     
   }
@@ -29,6 +30,7 @@
     position: relative;
     opacity: 0.9;
     margin-right: 2.5em;
+    
    
   }
   
@@ -59,12 +61,30 @@
 
    height: 50px;
    margin-left: 20px;
+  
   }
   
 .logoNav {
 
   text-decoration: none;
   display: block;
+}
+
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer  ;
+}
+
+.topLeft {
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ 
+  
 }
 
 

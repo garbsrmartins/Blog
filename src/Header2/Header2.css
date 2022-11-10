@@ -1,13 +1,14 @@
 .imgHeader {
 
-    width:40%;
+    width:100%
+    
 }
 
 @media (max-width:1000px) {
 
     .imgHeader {
 
-        width:80%;
+        width:100%;
     }
     
 }
