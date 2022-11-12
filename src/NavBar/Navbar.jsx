@@ -11,9 +11,7 @@ const Navbar = () => {
       <a href="/"><img  className="nav-logo"  src={lotus} alt=""/></a>
       <div className={`nav-items ${isOpen && "open"}`}>
         <a href="/">Home</a>
-        <a href="/espaco">O espaço</a>
-        <a href="/quartos">Quartos</a>
-        <a href="/contato">Contato</a>
+        
       </div>
       <div className="topLeft">
         <i className="topIcon fa-brands fa-facebook"></i>
