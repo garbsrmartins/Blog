@@ -5,27 +5,29 @@ import { makeStyles} from '@material-ui/core'
 
 const useStyles = makeStyles ((theme) => ({
 
-    root: {
+    
 
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '100vh',
-        width: '100%',
-        fontSize: '5em',
-        fontFamily: 'Montserrat',
-        
-        
-    },
+  root: {
 
-    goDown: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh',
+    width: '100%',
+    flexDirection: 'column'
+    
+    
+},
 
-            color: 'black',
-            fontSize: '4em',
-            justifyContent: 'center',
-            alignItems: 'center',
-            margin: 'auto'
-    }
+title: {
+
+  width: '100%',
+  fontSize: '3em',
+  textAlign: 'center',
+  fontFamily:'Montserrat',
+  color: 'black',
+
+},
 
 }))
 
@@ -33,9 +35,9 @@ function HeaderQuartos() {
 const classes = useStyles ();
 
   return (
-    <div>
     <div className={classes.root}>
-      Acomodações
+    <div className={classes.title}>
+      <div>Acomodações</div>
     
     </div>
     

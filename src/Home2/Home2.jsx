@@ -4,6 +4,7 @@ import Header2 from '../Header2/Header2';
 import Posts from '../Posts/Posts';
 import Footer from '../Footer/Footer';
 
+
 const useStyles = makeStyles((theme) => ({
 
     root: {
@@ -27,6 +28,7 @@ function Home2() {
     const classes = useStyles();
   return (
     <div className={classes.root}>
+     
       <CssBaseline/>
       <Header2/>
       <Posts/>

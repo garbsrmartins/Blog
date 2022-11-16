@@ -121,7 +121,7 @@ function Cards() {
 
         
         <div className={classes.texto}><p>Acomodações <br></br>
-        <span className={classes.description}>O espaço possuí três quartos, Arara Azul, Arara Verde e Arara Privê, cada um com particularidades que enriquecem sua experiência</span></p>
+        <span className={classes.description}>O espaço possuí três quartos, Casa Beija-flor, Arara Verde e Arara Privê, cada um com particularidades que enriquecem sua experiência</span></p>
         <a className={classes.button} href='/quartos'> Conheça os quartos </a> 
         </div>
         
