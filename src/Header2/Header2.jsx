@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/1478297.png'
+import logo from '../images/LogoAruna3.png'
 import { makeStyles} from '@material-ui/core'
 import './Header2.css'
 
@@ -21,10 +21,10 @@ const useStyles = makeStyles ((theme) => ({
        subtitle: {
 
       width: '100%',
-      fontSize: '2em',
+      fontSize: '3em',
       textAlign: 'center',
       fontFamily:'Montserrat',
-      
+      color: 'black',
 
     },
 
@@ -41,7 +41,7 @@ const classes = useStyles ();
       <div className={classes.logoback}>
       <img className='imgHeader' src={logo} alt="texto"/>
       </div>
-      <p className={classes.subtitle}>Florianópolis - Santa Catarina - Brasil</p>
+      <p className={classes.subtitle}>Espaço Regenerativo</p>
     
     </div>
     

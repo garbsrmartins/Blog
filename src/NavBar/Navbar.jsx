@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import lotus from '../images/LogoLotus.png'
+import lotus from '../images/LogoNav.png'
 
 
 const Navbar = () => {
