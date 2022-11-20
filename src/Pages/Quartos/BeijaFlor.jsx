@@ -6,6 +6,7 @@ import Footer from '../../Footer/Footer'
 
 import Headerbeija from '../../Header2/HeaderBeija'
 import Cardsbeija from '../../Cards/Cardsbeija'
+import Slider2 from '../../Slider/Slider-Prive'
 
 
 
@@ -15,10 +16,9 @@ const useStyles = makeStyles ((theme) => ({
 
   root: {
     minHeight: '100vh',
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/beijaflor.webp'})` ,
+    backgroundColor: 'white' ,
     backgroundRepeat: 'no-repeat',
     backgroundSize: '100%',
-    
     [theme.breakpoints.down("xs")]: {
         backgroundSize: 'cover',
            
@@ -33,7 +33,7 @@ const useStyles = makeStyles ((theme) => ({
 
 }))
 
-function Beija() {
+function Piramide() {
   
   const classes = useStyles ();
   return (
@@ -45,7 +45,9 @@ function Beija() {
    
 
 <Headerbeija/>
+<Slider2/>
 <Cardsbeija/>
+
   
    <Footer/>
     </div> 
@@ -54,4 +56,4 @@ function Beija() {
   )
 }
 
-export default Beija
+export default Piramide

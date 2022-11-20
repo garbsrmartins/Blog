@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { makeStyles} from '@material-ui/core'
+import piramide from '../images/piramideexterno.webp'
 
 
 
@@ -13,7 +14,7 @@ const useStyles = makeStyles ((theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '100vh',
+    height: '40vh',
     width: '100%',
     flexDirection: 'column'
     
@@ -26,7 +27,20 @@ title: {
   fontSize: '3em',
   textAlign: 'center',
   fontFamily:'Montserrat',
-  color: 'white',
+  color: 'black',
+
+},
+
+imgheader: {
+
+ width:'100vw',
+ height:'100%',
+ maxHeight:'40vh',
+ objectFit: 'cover',  
+
+ overflow: 'hidden',
+ display:'none',
+
 
 },
 
@@ -36,14 +50,19 @@ function Headerbeija() {
 const classes = useStyles ();
 
   return (
+    <>
+    <img className={classes.imgheader} src={piramide} alt="piramide"/>
     <div className={classes.root}>
+      
     <div className={classes.title}>
-    <div> Casa Refúgio Beija-flor</div>
+     
+   <div> Casa Refúgio Beija-Flor</div>
     
     </div>
     
    
     </div>
+    </>
   )
 }
 

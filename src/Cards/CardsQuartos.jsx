@@ -8,71 +8,51 @@ const useStyles = makeStyles ((theme) => ({
 
 cardsDiv: {
 
-    minHeight: '100vh',
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/4.webp'})` ,
-    backgroundRepeat: 'no-repeat',
-    
+    color:'white',
+    backgroundColor: 'black ',
+    backgroundRepeat: 'no-repeat',    
     backgroundSize: 'cover',
+    display:'block',
 },
 
 cardsDiv1: {
 
-    minHeight: '100vh',
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/21.webp'})` ,
-    backgroundRepeat: 'no-repeat',
-   
+    color:'black',
+    backgroundColor: 'white',
+    backgroundRepeat: 'no-repeat',   
     backgroundSize: 'cover',
+    display:'block',
 },
 cardsDiv2: {
 
-    minHeight: '100vh',
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/tone1.webp'})` ,
-    backgroundRepeat: 'no-repeat',
-   
+    color:'white',
+    backgroundColor: 'black ',
+    backgroundRepeat: 'no-repeat',   
     backgroundSize: 'cover',
+    display:'block',
 },
 
-cards1: {
 
-    width: '100%',
 
-      
-    
-},
-
-cards: {
-    width: '100%',
-    backgroundSize: 'cover',
-    background: '#00000028 ',
-    
-    height:'100vh',
-
-    "@media (max-width: 1280px)": {
-        display: 'flex',
-        flexDirection: 'column',
-      },
-    
-   
-    
-},
 
 texto: {
 
     
-color: 'white',
+
 fontFamily: 'Montserrat',
-display: 'inline-block',
-fontSize: '3em',
-width: '100%',
+display: 'flex',
+fontSize: '2em',
+width: '60%',
 textAlign: 'center',
-verticalAlign: '-60vh',
+
+margin: 'auto',
 
 "@media (max-width: 1280px)": {
     fontSize: '2em',
     float: 'none',
     justifyItems: 'center',
     margin: 'auto',
-    width: '90%',
+    width: '100%',
     display: 'flex',
     flexDirection: 'column',
   },
@@ -87,26 +67,18 @@ verticalAlign: '-60vh',
 
 description: {
     
-color: 'white',
+
 fontFamily: 'Montserrat',
-margin: '2em',
+padding: '2em',
 fontSize: '0.7em',
 
 textAlign: 'center',
-display: 'block',
+display: 'flex',
 
 
-},
-button:{
-    padding: '1em',
-    background: 'rgba(255, 248, 248, 0.7) ',
-    
-    fontSize: '0.7em',
-    borderRadius: '10px',
-    color: 'black',
-    textDecoration: 'none',
 
 },
+
 
 
 }))
@@ -156,7 +128,7 @@ Passeios para ilhas e praias inabitadas. Nas proximidades há variedade de resta
         
     </div>
     </div>
-    <div className={classes.cardsDiv2}>
+    <div className={classes.cardsDiv1   }>
     <div className={classes.cards}>
 
         

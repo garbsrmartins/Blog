@@ -6,6 +6,7 @@ import Footer from '../../Footer/Footer'
 
 import HeaderQuartos from '../../Header2/HeaderQuartos'
 import Cardsquarto from '../../Cards/CardsQuartos'
+import Slider1 from '../../Slider/Slider-Verde'
 
 
 
@@ -15,7 +16,7 @@ const useStyles = makeStyles ((theme) => ({
 
   root: {
     minHeight: '100vh',
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/piramideexterno.webp'})` ,
+    backgroundColor: 'white' ,
     backgroundRepeat: 'no-repeat',
     backgroundSize: '100%',
     [theme.breakpoints.down("xs")]: {
@@ -44,7 +45,9 @@ function Piramide() {
    
 
 <HeaderQuartos/>
+<Slider1/>
 <Cardsquarto/>
+
   
    <Footer/>
     </div> 

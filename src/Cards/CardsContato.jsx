@@ -9,7 +9,7 @@ const useStyles = makeStyles ((theme) => ({
 cardsDiv: {
 
     
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/pool.webp'})` ,
+   
     backgroundRepeat: 'no-repeat',
     
     backgroundSize: 'cover',
@@ -21,7 +21,7 @@ cards: {
     width: '100%',
     backgroundSize: 'cover',
     background: '#ffffff60 ',
-    height: '100vh',
+    
     
  
 
@@ -43,7 +43,7 @@ display: 'inline-block',
 fontSize: '2.5em',
 width: '100%',
 textAlign: 'center',
-verticalAlign: '-60vh',
+
 
 "@media (max-width: 1280px)": {
     fontSize: '2em',
@@ -67,13 +67,13 @@ description: {
     
 color: 'black',
 fontFamily: 'Montserrat',
-margin: '2em',
+margin: '4em 2em 2em 2em',
 fontSize: '0.5em',
 fontWeight: 'bold',
 
 textAlign: 'center',
 display: 'inline-block',
-width: '40%',
+
 "@media (max-width: 1280px)": {
     fontSize: '0.5em',
     float: 'none',
