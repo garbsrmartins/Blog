@@ -3,10 +3,9 @@ import { makeStyles} from '@material-ui/core'
 
 
 import Footer from '../../Footer/Footer'
-import Slider from '../../Slider/Slider'
-import Slider1 from '../../Slider/Slider-Verde'
-import Slider2 from '../../Slider/Slider-Prive'
-import HeaderQuartos from '../../Header2/HeaderQuartos'
+
+import Headerbeija from '../../Header2/HeaderBeija'
+import Cardsbeija from '../../Cards/Cardsbeija'
 
 
 
@@ -16,9 +15,10 @@ const useStyles = makeStyles ((theme) => ({
 
   root: {
     minHeight: '100vh',
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/4.webp'})` ,
+    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/beijaflor.webp'})` ,
     backgroundRepeat: 'no-repeat',
     backgroundSize: '100%',
+    
     [theme.breakpoints.down("xs")]: {
         backgroundSize: 'cover',
            
@@ -33,7 +33,7 @@ const useStyles = makeStyles ((theme) => ({
 
 }))
 
-function Quartos() {
+function Beija() {
   
   const classes = useStyles ();
   return (
@@ -44,16 +44,14 @@ function Quartos() {
     <div className={classes.root}>
    
 
-<HeaderQuartos/>
+<Headerbeija/>
+<Cardsbeija/>
   
-    <Slider/> 
-    <Slider1/>
-    <Slider2/>
-    <Footer/>
+   <Footer/>
     </div> 
    
    
   )
 }
 
-export default Quartos
+export default Beija

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { makeStyles} from '@material-ui/core'
-import piramide from '../images/casapiramide.png'
+
 
 
 const useStyles = makeStyles ((theme) => ({
@@ -26,19 +26,19 @@ title: {
   fontSize: '3em',
   textAlign: 'center',
   fontFamily:'Montserrat',
-  color: 'black',
+  color: 'white',
 
 },
 
 }))
 
-function HeaderQuartos() {
+function Headerbeija() {
 const classes = useStyles ();
 
   return (
     <div className={classes.root}>
     <div className={classes.title}>
-    <img className='imgHeader' src={piramide} alt="texto"/>
+    <div> Casa Refúgio Beija-flor</div>
     
     </div>
     
@@ -47,4 +47,4 @@ const classes = useStyles ();
   )
 }
 
-export default HeaderQuartos
+export default Headerbeija
