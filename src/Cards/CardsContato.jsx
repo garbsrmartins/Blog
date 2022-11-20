@@ -69,11 +69,21 @@ color: 'black',
 fontFamily: 'Montserrat',
 margin: '2em',
 fontSize: '0.5em',
+fontWeight: 'bold',
 
 textAlign: 'center',
 display: 'inline-block',
 width: '40%',
-
+"@media (max-width: 1280px)": {
+    fontSize: '0.5em',
+    float: 'none',
+    justifyItems: 'center',
+    margin: '50px auto',
+   
+    width: '90%',
+    display: 'flex',
+    flexDirection: 'column',
+  },
 
 },
 
