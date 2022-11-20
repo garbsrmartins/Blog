@@ -120,7 +120,7 @@ function Cards() {
     <div className={classes.cards}>
 
         
-        <div className={classes.texto}><p>Acomodações <br></br>
+        <div className={classes.texto}><p>Sobre <br></br>
         <span className={classes.description}>O espaço possuí três quartos, Casa Beija-flor, Arara Verde e Arara Privê, cada um com particularidades que enriquecem sua experiência</span></p>
         <a className={classes.button} href='/quartos'> Conheça os quartos </a> 
         </div>
@@ -142,9 +142,9 @@ function Cards() {
     <div className={classes.cards}>
 
         
-        <div className={classes.texto}><p>Nossas Acomodações <br></br>
-        <span className={classes.description}>O espaço possuí três quartos, Arara Azul, Arara Verde e Arara Privê, cada um com particularidades que enriquecem sua experiência</span></p>
-        <a className={classes.button} href='/quartos'> Conheça os quartos </a> 
+        <div className={classes.texto}><p>Faça sua reserva <br></br>
+        <span className={classes.description}>Você pode fazer a reserva entrando em contato diretamente conosco ou pelas empresas parceiras</span></p>
+        <a className={classes.button} href='/contato'> Entrar em contato </a> 
         </div>
         
     </div>
