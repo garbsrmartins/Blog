@@ -116,29 +116,19 @@ function Cards() {
     const classes = useStyles ();
   return (
     <>
+  
     <div className={classes.cardsDiv}>
     <div className={classes.cards}>
 
         
-        <div className={classes.texto}><p>Sobre <br></br>
-        <span className={classes.description}>O espaço possuí três quartos, Casa Beija-flor, Arara Verde e Arara Privê, cada um com particularidades que enriquecem sua experiência</span></p>
-        <a className={classes.button} href='/quartos'> Conheça os quartos </a> 
+        <div className={classes.texto}><p>Nossas Acomodações <br></br>
+        <span className={classes.description}>Oferecemos dois espaços para reserva, a Aruna Casa Pirãmide e a Casa Refúgio Beija-Flor</span></p>
+        <a className={classes.button} href='/quartos'> Conheça as casas </a> 
         </div>
         
     </div>
     </div>
     <div className={classes.cardsDiv1}>
-    <div className={classes.cards}>
-
-        
-        <div className={classes.texto}><p>Nossas Acomodações <br></br>
-        <span className={classes.description}>O espaço possuí três quartos, Arara Azul, Arara Verde e Arara Privê, cada um com particularidades que enriquecem sua experiência</span></p>
-        <a className={classes.button} href='/quartos'> Conheça os quartos </a> 
-        </div>
-        
-    </div>
-    </div>
-    <div className={classes.cardsDiv2}>
     <div className={classes.cards}>
 
         

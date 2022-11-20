@@ -8,8 +8,8 @@ const useStyles = makeStyles ((theme) => ({
 
 cardsDiv: {
 
-    color:'white',
-    backgroundColor: 'black ',
+    color:'black',
+    backgroundColor: 'white',
     backgroundRepeat: 'no-repeat',    
     backgroundSize: 'cover',
     display:'block',
@@ -25,8 +25,8 @@ cardsDiv1: {
 },
 cardsDiv2: {
 
-    color:'white',
-    backgroundColor: 'black ',
+    color:'black',
+    backgroundColor: 'white',
     backgroundRepeat: 'no-repeat',   
     backgroundSize: 'cover',
     display:'block',
@@ -93,8 +93,7 @@ function Cardsbeija() {
 
         
         <div className={classes.texto}><p>Sobre <br></br>
-        <span className={classes.description}>Dedicado às pessoas que buscam relaxamento e paz de espírito.
-A casa da Pirâmide faz parte das estruturas do Aruna, um pequeno e exclusivo condomínio que é um verdadeiro refúgio aconchegante no alto da montanha, com vista para o mar e ilhas. Isolado do sistema urbano, em meio a exuberante natureza do sul da Ilha de Florianópolis. O Aruna foi no passado um Eco Spa, após uma grande reforma, mudamos a proposta para locações pontuais de algumas unidades.</span></p>
+        <span className={classes.description}>A Casa Beija Flor faz parte das estruturas do Aruna, um pequeno e exclusivo condomínio que é um verdadeiro refúgio aconchegante. Está localizado no alto da montanha, com o privilégio de uma vista exuberante para o mar e algumas ilhas da região. Isolado do sistema urbano, em meio a natureza preservada do sul da Ilha de Florianópolis, o Aruna foi no passado um Eco Spa, após uma grande reforma, mudamos a proposta para locações pontuais de algumas unidades.</span></p>
         
         </div>
         
@@ -105,7 +104,15 @@ A casa da Pirâmide faz parte das estruturas do Aruna, um pequeno e exclusivo co
 
         
         <div className={classes.texto}><p> O espaço
-        <span className={classes.description}>A casa da Pirâmide do Aruna foi reconstruída recentemente. A casa é muito bem ventilada, e iluminada, nossa água vem da nascente, estamos rodeados pela floresta preservada e praticamente sem vizinhos próximos. O Aruna possui alguns espaços comuns, ou seja, também podendo ser utilizado pelos hospedes das outras unidades. Temos um espaço para fogueira, uma pequena piscina com água da nascente, um mirante com uma vista espetacular, um lago, e um local para refeições ao ar livre. Temos uma sala, dentro de uma pirâmide, onde praticamos meditação e yoga, o uso desta sala é exclusivo, mas haverá a possibilidade de abrirmos para os hospedes que sinalizarem desejo de participar. As vezes podemos oferecer uma “supresa”, um pequeno cardápio de algumas iguarias, muito especiais aqui da ilha, como ostras gratinadas, mariscos com preparos especiais ou pizzas, entre outras...</span></p>
+        <span className={classes.description}>A Casa Beija Flor foi reconstruída recentemente, é muito bem ventilada e iluminada, nossa água vem da nascente, estamos rodeados pela floresta preservada e praticamente sem vizinhos próximos.
+
+O Aruna possui alguns espaços comuns: espaço para fogueira, uma pequena piscina com água da nascente, um mirante com uma vista espetacular, um lago e um local para refeições ao ar livre.
+
+Temos uma sala, dentro de uma Pirâmide, onde praticamos meditação e yoga. O uso desta sala é exclusivo, mas haverá a possibilidade de abrirmos para os hospedes que sinalizarem desejo de participar das práticas.
+
+Eventualmente podemos oferecer uma “supresa”, um pequeno cardápio de algumas iguarias, muito especiais aqui da ilha, como ostras gratinadas, mariscos com preparos especiais ou pizzas.
+
+Dedicado as pessoas que buscam relaxamento e paz de espírito, o Aruna é a evolução de um espaço que outrora funcionava como um Spa de Terapias Naturais. O significado de Aruna vem da mitologia oriental "Arjuna", que sua tradução para o ocidental é "O buscador da verdade".</span></p>
         
         </div>
         
@@ -120,9 +127,9 @@ A casa da Pirâmide faz parte das estruturas do Aruna, um pequeno e exclusivo co
 
 
 
-Os hospedes terão acesso a piscina, área para fogueira, churrasqueira, lago e jardins. Temos uma sala com 45 metros quadrados, onde praticamos diariamente meditação e yoga. Os hospedes poderão se integrar em algumas praticas abertas, desde que agendadas com antecedência.
-Outras observações
-Passeios para ilhas e praias inabitadas. Nas proximidades há variedade de restaurantes, belíssimas praias, trilhas e cachoeiras com piscina natural. Temos uma sala com 45 metros quadrados, dentro de uma pirâmide, onde praticamos diariamente meditação e yoga. Os hospedes poderão se integrar em algumas práticas abertas, desde que agendadas com antecedência. A água que abastece todas as casas, provem de nascente natural. Temos dois cachorros de porte médio, super dóceis e acostumados ao convívio dos hospedes e amigos. Passeios exclusivos com o nosso carro hilux 4x4</span></p>
+        Os hospedes terão acesso a piscina (nos horários permitidos), área para fogueira e churrasqueira (mediante a um agendamento), lago e jardins livres.
+
+Há um mirante com vista para mar e as praias dos Açores, Pântano do Sul e Solidão, local ideal para tomar um café da manha ou contemplar a maravilhosa vista do mar e natureza local.</span></p>
          
         </div>
         
@@ -134,7 +141,11 @@ Passeios para ilhas e praias inabitadas. Nas proximidades há variedade de resta
         
         <div className={classes.texto}><p>Outras observações
         <span className={classes.description}>
-Passeios para ilhas e praias inabitadas. Nas proximidades há variedade de restaurantes, belíssimas praias, trilhas e cachoeiras com piscina natural. Temos uma sala com 45 metros quadrados, dentro de uma pirâmide, onde praticamos diariamente meditação e yoga. Os hospedes poderão se integrar em algumas práticas abertas, desde que agendadas com antecedência. A água que abastece todas as casas, provem de nascente natural. Temos dois cachorros de porte médio, super dóceis e acostumados ao convívio dos hospedes e amigos.Passeios exclusivos com o nosso carro hilux 4x4</span></p>
+        Temos uma sala com 45 metros quadrados, dentro de uma pirâmide, onde praticamos diariamente meditação e yoga. Os hospedes poderão se integrar em algumas práticas abertas, desde que agendadas com antecedência.
+
+A água que abastece todas as casas, provem de nascente natural.
+
+Temos dois cachorros de porte médio, super dóceis e acostumados ao convívio dos hospedes e amigos.</span></p>
        
         </div>
         

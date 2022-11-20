@@ -8,7 +8,8 @@ const useStyles = makeStyles ((theme) => ({
 
 cardsDiv: {
 
-    
+    color:'white',
+    backgroundColor: 'black',
    
     backgroundRepeat: 'no-repeat',
     
@@ -17,27 +18,14 @@ cardsDiv: {
 
 
 
-cards: {
-    width: '100%',
-    backgroundSize: 'cover',
-    background: '#ffffff60 ',
-    
-    
- 
-
-    "@media (max-width: 1280px)": {
-        display: 'flex',
-        flexDirection: 'column',
-      },
-    
    
     
-},
+
 
 texto: {
 
 marginTop: '100px',   
-color: 'black',
+
 fontFamily: 'Montserrat',
 display: 'inline-block',
 fontSize: '2.5em',
@@ -65,7 +53,7 @@ textAlign: 'center',
 
 description: {
     
-color: 'black',
+
 fontFamily: 'Montserrat',
 margin: '4em 2em 2em 2em',
 fontSize: '0.5em',
