@@ -16,7 +16,7 @@ const useStyles = makeStyles ((theme) => ({
 
   root: {
     minHeight: '100vh',
-    backgroundColor: 'white' ,
+    backgroundColor: '#FFEACD' ,
     backgroundRepeat: 'no-repeat',
     backgroundSize: '100%',
     [theme.breakpoints.down("xs")]: {
