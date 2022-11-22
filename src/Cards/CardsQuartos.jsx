@@ -41,9 +41,10 @@ texto: {
 
 fontFamily: 'Montserrat',
 display: 'flex',
-fontSize: '2em',
-width: '60%',
+fontSize: '2.2em',
+width: '70%',
 textAlign: 'center',
+fontWeight: 'bold',
 
 margin: 'auto',
 
@@ -122,7 +123,7 @@ A casa da Pirâmide faz parte das estruturas do Aruna, um pequeno e exclusivo co
 
 Os hospedes terão acesso a piscina, área para fogueira, churrasqueira, lago e jardins. Temos uma sala com 45 metros quadrados, onde praticamos diariamente meditação e yoga. Os hospedes poderão se integrar em algumas praticas abertas, desde que agendadas com antecedência.
 Outras observações
-Passeios para ilhas e praias inabitadas. Nas proximidades há variedade de restaurantes, belíssimas praias, trilhas e cachoeiras com piscina natural. Temos uma sala com 45 metros quadrados, dentro de uma pirâmide, onde praticamos diariamente meditação e yoga. Os hospedes poderão se integrar em algumas práticas abertas, desde que agendadas com antecedência. A água que abastece todas as casas, provem de nascente natural. Temos dois cachorros de porte médio, super dóceis e acostumados ao convívio dos hospedes e amigos. Passeios exclusivos com o nosso carro hilux 4x4</span></p>
+Passeios para ilhas e praias inabitadas. Nas proximidades há variedade de restaurantes, belíssimas praias, trilhas e cachoeiras com piscina natural. Temos uma sala com 45 metros quadrados, dentro de uma pirâmide, onde praticamos diariamente meditação e yoga. Os hospedes poderão se integrar em algumas práticas abertas, desde que agendadas com antecedência. A água que abastece todas as casas, provem de nascente natural. Temos dois cachorros de porte médio, super dóceis e acostumados ao convívio dos hospedes e amigos. Passeios exclusivos com o nosso carro hilux 4x4.</span></p>
          
         </div>
         

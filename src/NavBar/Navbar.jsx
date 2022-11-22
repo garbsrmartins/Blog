@@ -17,7 +17,7 @@ const Navbar = () => {
         
       </div>
       <div className="topLeft">
-        <i className="topIcon fa-brands fa-facebook"></i>
+        
         <a href="https://www.instagram.com/arunaespacoregenerativo" target="_blank" rel="noreferrer" ><i className="topIcon fa-brands fa-instagram"></i></a>
         <i className="topIcon fa-brands fa-airbnb"></i>
       </div>

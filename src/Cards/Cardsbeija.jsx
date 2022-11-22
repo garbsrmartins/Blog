@@ -13,6 +13,7 @@ cardsDiv: {
     backgroundRepeat: 'no-repeat',    
     backgroundSize: 'cover',
     display:'block',
+    
 },
 
 cardsDiv1: {
@@ -41,9 +42,10 @@ texto: {
 
 fontFamily: 'Montserrat',
 display: 'flex',
-fontSize: '2em',
-width: '60%',
+fontSize: '2.2em',
+width: '70%',
 textAlign: 'center',
+fontWeight: 'bold',
 
 margin: 'auto',
 

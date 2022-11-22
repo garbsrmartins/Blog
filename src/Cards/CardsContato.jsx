@@ -9,20 +9,35 @@ const useStyles = makeStyles ((theme) => ({
 cardsDiv: {
 
     color:'white',
-    backgroundColor: 'black',
+    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/tone1.webp'})`,
    
     backgroundRepeat: 'no-repeat',
     
     backgroundSize: 'cover',
+    "@media (max-width: 1280px)": {
+     
+      float: 'none',
+      justifyItems: 'center',
+      
+     
+      display: 'block',
+      flexDirection: 'column',
+    },
 },
 
 
+cards: {
 
+  background:'#00000070 ',
+},
    
     
 
 
 texto: {
+
+  
+  backgroundSize: 'cover',
 
 marginTop: '100px',   
 
@@ -37,8 +52,7 @@ textAlign: 'center',
     fontSize: '2em',
     float: 'none',
     justifyItems: 'center',
-    margin: 'auto',
-    width: '90%',
+   
     display: 'flex',
     flexDirection: 'column',
   },
@@ -105,7 +119,7 @@ function Cardscontato() {
             </p>
             <p>
                 Redes Sociais <br></br>
-                <i className="topIconCon fa-brands fa-facebook"></i>
+                
         <a href="https://www.instagram.com/arunaespacoregenerativo" target="_blank" rel="noreferrer" ><i className="topIconCon fa-brands fa-instagram"></i></a>
         <a href="https://www.airbnb.com.br/rooms/760241883997622770?_set_bev_on_new_domain=1668790515_ZTZiZDkxOTM2Y2U0&source_impression_id=p3_1668952126_r3vx4HqSE%2BAT7y2v" target="_blank" rel="noreferrer" ><i className="topIconCon fa-brands fa-airbnb"></i></a>
 

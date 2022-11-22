@@ -16,19 +16,26 @@ const useStyles = makeStyles ((theme) => ({
 
   root: {
     minHeight: '100vh',
-    backgroundColor: '#FFEACD' ,
+    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/Mar.jpeg'})` ,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     [theme.breakpoints.down("xs")]: {
         backgroundSize: 'cover',
            
-    }
+    },
+
+   
     
 
 
     
     
 },
+
+oppacity: {
+        
+  background:'#ffffff80'
+}
 
 
 }))
@@ -42,7 +49,7 @@ function Piramide() {
       
   
     <div className={classes.root}>
-   
+   <div className={classes.oppacity}>
 
 <Headerbeija/>
 <Slider2/>
@@ -51,7 +58,7 @@ function Piramide() {
   
    <Footer/>
     </div> 
-   
+    </div>
    
   )
 }

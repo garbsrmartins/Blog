@@ -16,9 +16,9 @@ const useStyles = makeStyles ((theme) => ({
 
   root: {
     minHeight: '100vh',
-    backgroundColor: '#FFEACD' ,
+    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/piramide.jpeg'})`,
     backgroundRepeat: 'no-repeat',
-    backgroundSize: '100%',
+    backgroundSize: 'cover',
     [theme.breakpoints.down("xs")]: {
         backgroundSize: 'cover',
            
@@ -30,6 +30,10 @@ const useStyles = makeStyles ((theme) => ({
     
 },
 
+oppacity: {
+        
+  background:'#ffffff99'
+}
 
 }))
 
@@ -42,6 +46,7 @@ function Piramide() {
       
   
     <div className={classes.root}>
+      <div className={classes.oppacity}>
    
 
 <HeaderQuartos/>
@@ -51,6 +56,7 @@ function Piramide() {
   
    <Footer/>
     </div> 
+    </div>
    
    
   )
