@@ -4,10 +4,14 @@ import { makeStyles} from '@material-ui/core'
 import './Header2.css'
 
 
+
 const useStyles = makeStyles ((theme) => ({
 
     root: {
 
+      backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/Mar.jpeg'})`,
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',

@@ -9,7 +9,7 @@ const useStyles = makeStyles ((theme) => ({
 cardsDiv: {
 
     color:'black',
-   
+    
     backgroundRepeat: 'no-repeat',    
     backgroundSize: 'cover',
     display:'block',
