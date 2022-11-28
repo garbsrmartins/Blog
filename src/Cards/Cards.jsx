@@ -108,6 +108,38 @@ button:{
 
 },
 
+reserva: {
+    fontFamily: 'Montserrat',
+
+fontSize: '2.2em',
+width: '70%',
+textAlign: 'center',
+fontWeight: 'bold',
+
+margin: 'auto',
+
+"@media (max-width: 1280px)": {
+    fontSize: '2em',
+    float: 'none',
+    justifyItems: 'center',
+    margin: 'auto',
+    width: '100%',
+    display: 'flex',
+    flexDirection: 'column',
+  },
+
+
+},
+
+brand: {
+
+    display: 'inline-block',
+    textAlign: 'center',
+    fontSize: '2em',
+    margin: '10px 10px 50px 10px',
+    color: 'gray',
+}
+
 
 }))
 
@@ -122,19 +154,24 @@ function Cards() {
 
         
         <div className={classes.texto}><p>Nossas Acomodações <br></br>
-        <span className={classes.description}>Oferecemos dois espaços para reserva, a Aruna Casa Pirãmide e a Casa Refúgio Beija-Flor</span></p>
+        <span className={classes.description}>Oferecemos dois espaços para reserva, a Aruna Casa Pirâmide e a Casa Refúgio Beija-Flor</span></p>
         <a className={classes.button} href='/piramide'> Conheça as casas </a> 
         </div>
         
     </div>
     </div>
-    <div className={classes.cardsDiv1}>
+    
+
+    <div className={classes.cardsDiv2}>
     <div className={classes.cards}>
 
         
         <div className={classes.texto}><p>Faça sua reserva <br></br>
         <span className={classes.description}>Você pode fazer a reserva entrando em contato diretamente conosco ou pelas empresas parceiras</span></p>
-        <a className={classes.button} href='/contato'> Entrar em contato </a> 
+        <div className={classes.brand}>
+        <i class="icon fa-solid fa-phone"></i>
+        <a href="https://linktr.ee/arunafloripa" target="_blank" rel="noreferrer" ><i className="icon fa-brands fa-airbnb"></i></a>
+        </div>
         </div>
         
     </div>

@@ -80,6 +80,38 @@ display: 'flex',
 
 
 },
+reserva: {
+    fontFamily: 'Montserrat',
+
+fontSize: '2.2em',
+width: '70%',
+textAlign: 'center',
+fontWeight: 'bold',
+
+margin: 'auto',
+
+"@media (max-width: 1280px)": {
+    fontSize: '2em',
+    float: 'none',
+    justifyItems: 'center',
+    margin: 'auto',
+    width: '100%',
+    display: 'flex',
+    flexDirection: 'column',
+  },
+
+
+},
+
+brand: {
+
+    display: 'inline-block',
+    textAlign: 'center',
+    fontSize: '2em',
+    margin: '10px 10px 50px 10px',
+    color: 'black',
+}
+
 
 
 
@@ -153,6 +185,20 @@ Temos dois cachorros de porte médio, super dóceis e acostumados ao convívio d
         
     </div>
     </div>
+
+    <div className={classes.reserva}><p>Faça sua reserva  </p>
+        
+        <span className={classes.description}>
+                Faça sua reserva entrando em contato conosco ou através de uma das empresas parceiras:
+
+        </span>
+            <div className={classes.brand}>
+        <i class="icon fa-solid fa-phone"></i>
+        <a href="https://www.airbnb.com.br/rooms/760241883997622770?_set_bev_on_new_domain=1668790515_ZTZiZDkxOTM2Y2U0&source_impression_id=p3_1668952126_r3vx4HqSE%2BAT7y2v" target="_blank" rel="noreferrer" ><i className="icon fa-brands fa-airbnb"></i></a>
+        </div>
+     
+    
+       </div>
     </>
     
     

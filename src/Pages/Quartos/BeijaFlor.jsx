@@ -3,10 +3,12 @@ import { makeStyles} from '@material-ui/core'
 
 
 import Footer from '../../Footer/Footer'
+import ImageSlider from '../../Slider/Slider-Test'
 
 import Headerbeija from '../../Header2/HeaderBeija'
 import Cardsbeija from '../../Cards/Cardsbeija'
-import Slider2 from '../../Slider/Slider-Prive'
+
+import { SliderData } from '../../Slider/SliderData'
 
 
 
@@ -16,7 +18,7 @@ const useStyles = makeStyles ((theme) => ({
 
   root: {
     minHeight: '100vh',
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/Mar.jpeg'})` ,
+    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/beijaflor.webp'})` ,
     backgroundRepeat: 'no-repeat',
     backgroundSize: '100%',
     backgroundAttachment: 'fixed',
@@ -53,7 +55,8 @@ function Piramide() {
    <div className={classes.oppacity}>
 
 <Headerbeija/>
-<Slider2/>
+<ImageSlider slides={SliderData}/>
+
 <Cardsbeija/>
 
   

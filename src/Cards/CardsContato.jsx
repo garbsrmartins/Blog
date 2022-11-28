@@ -10,7 +10,7 @@ cardsDiv: {
 
     color:'white',
     backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/tone1.webp'})`,
-   
+    backgroundAttachment: 'fixed',
     backgroundRepeat: 'no-repeat',
     
     backgroundSize: 'cover',

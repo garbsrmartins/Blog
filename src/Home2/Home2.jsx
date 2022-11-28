@@ -5,6 +5,7 @@ import Posts from '../Posts/Posts';
 import Footer from '../Footer/Footer';
 
 
+
 const useStyles = makeStyles((theme) => ({
 
     root: {
@@ -24,6 +25,7 @@ function Home2() {
      
       <CssBaseline/>
       <Header2/>
+      
       <Posts/>
       <Footer/>
     </div>

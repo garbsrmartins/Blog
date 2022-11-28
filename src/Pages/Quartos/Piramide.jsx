@@ -6,7 +6,8 @@ import Footer from '../../Footer/Footer'
 
 import HeaderQuartos from '../../Header2/HeaderQuartos'
 import Cardsquarto from '../../Cards/CardsQuartos'
-import Slider1 from '../../Slider/Slider-Verde'
+import { SliderData2 } from '../../Slider/SliderData2'
+import ImageSlider2 from '../../Slider/Slider-Test2'
 
 
 
@@ -16,7 +17,7 @@ const useStyles = makeStyles ((theme) => ({
 
   root: {
     minHeight: '100vh',
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/Mar.jpeg'})` ,
+    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/piramideexterno.webp'})` ,
     backgroundRepeat: 'no-repeat',
     backgroundSize: '100%',
     backgroundAttachment: 'fixed',
@@ -32,7 +33,7 @@ const useStyles = makeStyles ((theme) => ({
 },
 oppacity: {
         
-  background:'#ffffff80'
+  background:'#ffffff99'
 }
 
 }))
@@ -49,7 +50,7 @@ function Piramide() {
    <div className={classes.oppacity}>
 
 <HeaderQuartos/>
-<Slider1/>
+<ImageSlider2 slides={SliderData2}/>
 <Cardsquarto/>
 
   
