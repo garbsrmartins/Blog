@@ -10,11 +10,13 @@ const useStyles = makeStyles ((theme) => ({
     
 
   root: {
-
+    
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     height: '40vh',
+    backgroundSize: '100%',
+    backgroundRepeat: 'no-repeat',
     width: '100%',
     flexDirection: 'column'
     
@@ -23,26 +25,18 @@ const useStyles = makeStyles ((theme) => ({
 
 title: {
 
-  width: '60%',
+  width: '80%',
   fontSize: '3em',
   textAlign: 'center',
   fontFamily:'Montserrat',
   color: 'black',
+  "@media (max-width: 1280px)":{
+    fontSize: '2.1em',
+  },
 
 },
 
-imgheader: {
 
- width:'100vw',
- height:'100%',
- maxHeight:'40vh',
- objectFit: 'cover',  
-
- overflow: 'hidden',
- display:'none',
-
-
-},
 
 }))
 
@@ -51,12 +45,12 @@ const classes = useStyles ();
 
   return (
     <>
-    <img className={classes.imgheader} src={piramide} alt="piramide"/>
+   
     <div className={classes.root}>
       
     <div className={classes.title}>
      
-   <div>Aruna<br></br> Casa Pirâmide</div>
+   <div>Aruna Casa Pirâmide</div>
     
     </div>
     

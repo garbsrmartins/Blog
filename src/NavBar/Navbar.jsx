@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="topLeft">
         
         <a href="https://www.instagram.com/arunaespacoregenerativo" target="_blank" rel="noreferrer" ><i className="topIcon fa-brands fa-instagram"></i></a>
-        <i className="topIcon fa-brands fa-airbnb"></i>
+        <a href="https://linktr.ee/arunafloripa" target="_blank" rel="noreferrer" ><i className="topIcon fa-brands fa-airbnb"></i></a>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}

@@ -28,21 +28,13 @@ title: {
   textAlign: 'center',
   fontFamily:'Montserrat',
   color: 'black',
+  "@media (max-width: 1280px)":{
+    fontSize: '2.1em',
+  },
 
 },
 
-imgheader: {
 
- width:'100vw',
- height:'100%',
- maxHeight:'40vh',
- objectFit: 'cover',  
-
- overflow: 'hidden',
- display:'none',
-
-
-},
 
 }))
 
@@ -51,7 +43,7 @@ const classes = useStyles ();
 
   return (
     <>
-    <img className={classes.imgheader} src={piramide} alt="piramide"/>
+  
     <div className={classes.root}>
       
     <div className={classes.title}>

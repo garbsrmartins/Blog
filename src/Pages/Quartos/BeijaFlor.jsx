@@ -18,9 +18,9 @@ const useStyles = makeStyles ((theme) => ({
 
   root: {
     minHeight: '100vh',
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/beijaflor.webp'})` ,
+    backgroundColor: '#E5FBFF',
     backgroundRepeat: 'no-repeat',
-    backgroundSize: '100%',
+    backgroundSize: 'cover',
     backgroundAttachment: 'fixed',
     [theme.breakpoints.down("xs")]: {
         backgroundSize: 'cover',

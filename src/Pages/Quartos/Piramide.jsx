@@ -17,9 +17,9 @@ const useStyles = makeStyles ((theme) => ({
 
   root: {
     minHeight: '100vh',
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/piramideexterno.webp'})` ,
+   backgroundColor: '#FFE9A9',
     backgroundRepeat: 'no-repeat',
-    backgroundSize: '100%',
+    backgroundSize: 'cover',
     backgroundAttachment: 'fixed',
     [theme.breakpoints.down("xs")]: {
         backgroundSize: 'cover',

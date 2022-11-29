@@ -19,15 +19,15 @@ texto: {
 
 fontFamily: 'Montserrat',
 display: 'flex',
-fontSize: '2.2em',
-width: '70%',
+fontSize: '1.8em',
+width: '80%',
 textAlign: 'center',
 fontWeight: 'bold',
 
 margin: 'auto',
 
 "@media (max-width: 1280px)": {
-    fontSize: '2em',
+    fontSize: '1.5em',
     float: 'none',
     justifyItems: 'center',
     margin: 'auto',
@@ -153,8 +153,8 @@ Passeios para ilhas e praias inabitadas. Nas proximidades há variedade de resta
 
         </span>
             <div className={classes.brand}>
-        <i class="icon fa-solid fa-phone"></i>
-        <a href="https://www.airbnb.com.br/rooms/760241883997622770?_set_bev_on_new_domain=1668790515_ZTZiZDkxOTM2Y2U0&source_impression_id=p3_1668952126_r3vx4HqSE%2BAT7y2v" target="_blank" rel="noreferrer" ><i className="icon fa-brands fa-airbnb"></i></a>
+        <i class="icon2 fa-solid fa-phone"></i>
+        <a href="https://www.airbnb.com.br/rooms/760241883997622770?_set_bev_on_new_domain=1668790515_ZTZiZDkxOTM2Y2U0&source_impression_id=p3_1668952126_r3vx4HqSE%2BAT7y2v" target="_blank" rel="noreferrer" ><i className="icon2 fa-brands fa-airbnb"></i></a>
         </div>
      
     
