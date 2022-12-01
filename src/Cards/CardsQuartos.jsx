@@ -4,6 +4,8 @@ import { makeStyles} from '@material-ui/core'
 
 
 import './Cards.css'
+import ImageSlider2 from '../Slider/Slider-Test2';
+import { SliderData2 } from '../Slider/SliderData2';
 
 
 
@@ -102,11 +104,12 @@ function Cardsquarto() {
    
 
         
-        <div className={classes.texto}><p>Sobre <br></br>
+        <div className={classes.texto}><p>
         <span className={classes.description}>A Aruna Casa Pirâmide faz parte das estruturas do Aruna, um pequeno e exclusivo condomínio que é um verdadeiro refúgio aconchegante. Está localizado no alto da montanha, com o privilégio de uma vista exuberante para o mar e algumas ilhas da região. Isolado do sistema urbano, em meio a natureza preservada do sul da Ilha de Florianópolis, o Aruna foi no passado um Eco Spa, após uma grande reforma, mudamos a proposta para locações pontuais de algumas unidades.</span></p>
         
         
     </div>
+    <ImageSlider2 slides={SliderData2}/>
    
 
         

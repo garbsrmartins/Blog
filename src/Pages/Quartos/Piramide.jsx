@@ -6,8 +6,8 @@ import Footer from '../../Footer/Footer'
 
 import HeaderQuartos from '../../Header2/HeaderQuartos'
 import Cardsquarto from '../../Cards/CardsQuartos'
-import { SliderData2 } from '../../Slider/SliderData2'
-import ImageSlider2 from '../../Slider/Slider-Test2'
+import Navbar from '../../NavBar/Navbar'
+
 
 
 
@@ -44,13 +44,13 @@ function Piramide() {
   return (
 
        
-      
+ 
   
     <div className={classes.root}>
    <div className={classes.oppacity}>
-
+   <Navbar/>
 <HeaderQuartos/>
-<ImageSlider2 slides={SliderData2}/>
+
 <Cardsquarto/>
 
   
