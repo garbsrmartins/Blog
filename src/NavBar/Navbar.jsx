@@ -9,17 +9,17 @@ const Navbar = () => {
     <div className="Navbar">
       
       <a href="/"><img  className="nav-logo"  src={lotus} alt=""/></a>
-      <ul className={`nav-items ${isOpen && "open"}`}>
-        <li><a href="/">Home</a></li>
-        <li> <a href="/">Acomodações</a>
-          <ul  >
-          <li><a href="/piramide">Aruna Casa Pirâmide</a></li>
-          <li> <a href="/beija-flor">Casa Refúgio Beija-Flor</a></li>
-          </ul>
-          </li>
-          <li><a href="/contato">Contato</a></li>
+      <div className={`nav-items ${isOpen && "open"}`}>
+        <a href="/">Home</a>
         
-      </ul>
+         
+          <a href="/piramide">Aruna Casa Pirâmide</a>
+          <a href="/beija-flor">Casa Refúgio Beija-Flor</a>
+          
+          
+         <a href="/contato">Contato</a>
+        
+      </div>
       <div className="topLeft">
         
         <a href="https://www.instagram.com/arunaespacoregenerativo" target="_blank" rel="noreferrer" ><i className="topIcon fa-brands fa-instagram"></i></a>
