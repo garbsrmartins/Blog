@@ -103,8 +103,7 @@ function Cardsquarto() {
 
         
         <div className={classes.texto}><p>Sobre <br></br>
-        <span className={classes.description}>Dedicado às pessoas que buscam relaxamento e paz de espírito.
-A casa da Pirâmide faz parte das estruturas do Aruna, um pequeno e exclusivo condomínio que é um verdadeiro refúgio aconchegante no alto da montanha, com vista para o mar e ilhas. Isolado do sistema urbano, em meio a exuberante natureza do sul da Ilha de Florianópolis. O Aruna foi no passado um Eco Spa, após uma grande reforma, mudamos a proposta para locações pontuais de algumas unidades.</span></p>
+        <span className={classes.description}>A Aruna Casa Pirâmide faz parte das estruturas do Aruna, um pequeno e exclusivo condomínio que é um verdadeiro refúgio aconchegante. Está localizado no alto da montanha, com o privilégio de uma vista exuberante para o mar e algumas ilhas da região. Isolado do sistema urbano, em meio a natureza preservada do sul da Ilha de Florianópolis, o Aruna foi no passado um Eco Spa, após uma grande reforma, mudamos a proposta para locações pontuais de algumas unidades.</span></p>
         
         
     </div>
@@ -112,7 +111,22 @@ A casa da Pirâmide faz parte das estruturas do Aruna, um pequeno e exclusivo co
 
         
         <div className={classes.texto}><p> O espaço
-        <span className={classes.description}>A casa da Pirâmide do Aruna foi reconstruída recentemente. A casa é muito bem ventilada, e iluminada, nossa água vem da nascente, estamos rodeados pela floresta preservada e praticamente sem vizinhos próximos. O Aruna possui alguns espaços comuns, ou seja, também podendo ser utilizado pelos hospedes das outras unidades. Temos um espaço para fogueira, uma pequena piscina com água da nascente, um mirante com uma vista espetacular, um lago, e um local para refeições ao ar livre. Temos uma sala, dentro de uma pirâmide, onde praticamos meditação e yoga, o uso desta sala é exclusivo, mas haverá a possibilidade de abrirmos para os hospedes que sinalizarem desejo de participar. As vezes podemos oferecer uma “supresa”, um pequeno cardápio de algumas iguarias, muito especiais aqui da ilha, como ostras gratinadas, mariscos com preparos especiais ou pizzas, entre outras...</span></p>
+        <span className={classes.description}>A Aruna Casa Pirâmide foi reconstruída recentemente, é muito bem ventilada e iluminada, possui dois quartos, sendo um para casal, onde há uma varanda com vista para o mar e o outro solteiro com bicama, uma bela sala, cozinha equipada para o preparo das suas refeições,
+         banheiro e um espaço de lavanderia. Nossa água vem da nascente, 
+         estamos rodeados pela floresta preservada e praticamente sem vizinhos próximos.<br></br><br></br>
+
+         O Aruna possui alguns espaços comuns: espaço para fogueira, uma pequena piscina com água da nascente,
+          um mirante com uma vista espetacular, um lago e um local para refeições ao ar livre <br></br><br></br>
+
+          Temos uma sala, na parte superior da Pirâmide, onde praticamos meditação e yoga. O uso desta sala é exclusivo,
+           mas haverá a possibilidade de abrirmos para os hóspedes que sinalizarem desejo de participar das práticas.<br></br><br></br>
+
+           Eventualmente podemos oferecer uma “supresa”, um pequeno cardápio de algumas iguarias, muito especiais aqui da ilha,
+            como ostras gratinadas, mariscos com preparos especiais ou pizzas. <br></br><br></br>
+            
+            Dedicado as pessoas que buscam relaxamento e paz de espírito,
+             o Aruna é a evolução de um espaço que outrora funcionava como um Spa de Terapias Naturais.
+             O significado de Aruna vem da mitologia oriental "Arjuna", que sua tradução para o ocidental é "O buscador da verdade".</span></p>
         
         </div>
 
@@ -121,12 +135,13 @@ A casa da Pirâmide faz parte das estruturas do Aruna, um pequeno e exclusivo co
         
         <div className={classes.texto}><p>Acesso do hóspede
         <span className={classes.description}>
+        Os hóspedes terão acesso a piscina (nos horários permitidos), área para fogueira e churrasqueira
+        (mediante agendamento), lago e jardins livres. <br></br><br></br>
+        Há um mirante com vista para o mar e às praias dos Açores, Pântano do Sul e Solidão, 
+        local ideal para tomar um café da manhã ou contemplar a maravilhosa vista do mar e natureza local.
 
 
-
-Os hospedes terão acesso a piscina, área para fogueira, churrasqueira, lago e jardins. Temos uma sala com 45 metros quadrados, onde praticamos diariamente meditação e yoga. Os hospedes poderão se integrar em algumas praticas abertas, desde que agendadas com antecedência.
-Outras observações
-Passeios para ilhas e praias inabitadas. Nas proximidades há variedade de restaurantes, belíssimas praias, trilhas e cachoeiras com piscina natural. Temos uma sala com 45 metros quadrados, dentro de uma pirâmide, onde praticamos diariamente meditação e yoga. Os hospedes poderão se integrar em algumas práticas abertas, desde que agendadas com antecedência. A água que abastece todas as casas, provem de nascente natural. Temos dois cachorros de porte médio, super dóceis e acostumados ao convívio dos hospedes e amigos. Passeios exclusivos com o nosso carro hilux 4x4.</span></p>
+</span></p>
          
         </div>
         

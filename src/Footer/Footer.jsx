@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='footerInfo'>
-        maurojaymes@terra.com.br<br></br>
+       
 +55 48 99206-1471<br></br>
 Estrada Francisco Thomaz dos Santos, 390<br></br>
 Pântano do Sul, CEP 88067-700<br></br>

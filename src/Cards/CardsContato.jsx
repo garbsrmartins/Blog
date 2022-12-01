@@ -46,6 +46,7 @@ display: 'inline-block',
 fontSize: '2.5em',
 width: '100%',
 textAlign: 'center',
+textDecoration: 'none',
 
 
 "@media (max-width: 1280px)": {
@@ -74,7 +75,10 @@ fontSize: '0.5em',
 fontWeight: 'bold',
 
 textAlign: 'center',
-display: 'inline-block',
+display: 'flex',
+flexDirection: 'column',
+textDecoration: 'none',
+color: 'white',
 
 "@media (max-width: 1280px)": {
     fontSize: '0.5em',
@@ -87,7 +91,16 @@ display: 'inline-block',
     flexDirection: 'column',
   },
 
+ 
+
 },
+
+link: {
+
+
+  textDecoration: 'none',
+  color: '#E1FFE1',
+}
 
 
 
@@ -105,23 +118,19 @@ function Cardscontato() {
         <div className={classes.texto}>
             <p>Contato <br></br>
                     <span className={classes.description}>Endereço<br></br><br></br>
-                                Estrada Francisco Thomaz dos Santos, 390
-                                Pântano do Sul, CEP 88067-700
+                                Estrada Francisco Thomaz dos Santos, 390<br></br>
+                                Pântano do Sul, CEP 88067-700<br></br>
                                 Florianópolis - Santa Catarina - Brasil
-                    </span>
-
-                    <span className={classes.description}>Email<br></br><br></br>
-
-                                maurojaymes@terra.com.br<br></br><br></br>
+                                <br></br><br></br>
                                 Telefone<br></br> <br></br>
-                                Móvel e WhatsApp: +55 48 99206-1471
+                                Móvel e WhatsApp: <a className={classes.link} href="https://api.whatsapp.com/send?phone=5548992061471">+55 48 99206-1471</a>
                     </span>
             </p>
             <p>
                 Redes Sociais <br></br>
                 
         <a href="https://www.instagram.com/arunaespacoregenerativo" target="_blank" rel="noreferrer" ><i className="topIconCon fa-brands fa-instagram"></i></a>
-        <a href="https://www.airbnb.com.br/rooms/760241883997622770?_set_bev_on_new_domain=1668790515_ZTZiZDkxOTM2Y2U0&source_impression_id=p3_1668952126_r3vx4HqSE%2BAT7y2v" target="_blank" rel="noreferrer" ><i className="topIconCon fa-brands fa-airbnb"></i></a>
+        <a href="https://linktr.ee/arunafloripa" target="_blank" rel="noreferrer" ><i className="topIconCon fa-brands fa-airbnb"></i></a>
 
             </p>
         </div>

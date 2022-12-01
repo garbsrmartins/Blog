@@ -2,18 +2,22 @@
 
 
 import {Routes, Route} from "react-router-dom";
-import Navbar from "./NavBar/Navbar"
+
 import Home2 from './Home2/Home2';
 import Piramide from "./Pages/Quartos/Piramide";
 import Beija from "./Pages/Quartos/BeijaFlor";
 import Contato from "./Pages/Contato";
+import Footer from "./Footer/Footer";
+import Navbar from "./NavBar/Navbar";
 
 
 
 
 function App() {
   return (
-       <> <Navbar/>
+       <> 
+       <Navbar/>
+       
             <Routes>
             <Route path="/" element={<Home2/>}/>
             <Route path="/piramide" element ={ <Piramide/>}/>
@@ -22,6 +26,7 @@ function App() {
            
              
           </Routes>
+          <Footer/>
           </>
   )
 }
