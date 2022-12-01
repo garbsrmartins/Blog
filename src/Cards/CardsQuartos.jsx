@@ -50,10 +50,10 @@ description: {
     
 
 fontFamily: 'Montserrat',
-padding: '2em',
+padding: '1em',
 fontSize: '0.7em',
 
-textAlign: 'center',
+textAlign: 'left',
 display: 'flex',
 
 
@@ -154,7 +154,13 @@ function Cardsquarto() {
         
         <div className={classes.texto}><p>Outras observações
         <span className={classes.description}>
-Passeios para ilhas e praias inabitadas. Nas proximidades há variedade de restaurantes, belíssimas praias, trilhas e cachoeiras com piscina natural. Temos uma sala com 45 metros quadrados, dentro de uma pirâmide, onde praticamos diariamente meditação e yoga. Os hospedes poderão se integrar em algumas práticas abertas, desde que agendadas com antecedência. A água que abastece todas as casas, provem de nascente natural. Temos dois cachorros de porte médio, super dóceis e acostumados ao convívio dos hospedes e amigos.Passeios exclusivos com o nosso carro hilux 4x4</span></p>
+        Nas proximidades existe uma variedade de restaurantes, belíssimas praias, 
+        ilhas, trilhas e cachoeiras com piscina natural. Passeios exclusivos com o nosso carro Hilux 4x4 é possível. <br></br><br></br>
+        Temos uma sala com 45 metros quadrados, dentro de uma pirâmide, onde praticamos diariamente meditação e yoga. 
+        Os hóspedes poderão se integrar em algumas práticas abertas, desde que agendadas com antecedência. <br></br><br></br>
+        A água que abastece todas as casas, provém de nascente natural. <br></br><br></br>
+        Temos dois cachorros de porte médio, super dóceis e acostumados ao convívio dos hóspedes e amigos.
+        </span></p>
        
         </div>
         
