@@ -99,7 +99,7 @@ link: {
 
 
   textDecoration: 'none',
-  color: '#E1FFE1',
+  color: 'white',
 }
 
 

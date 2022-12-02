@@ -16,63 +16,11 @@
     
   }
 
-  .Navbar ul li:hover {
-
-
-    background-color: rgb(226, 226, 226);
-  }
-
-.Navbar ul {
-
-  list-style-type: none;
-  display: flex;
- align-items: center;
- justify-content: center;
-  
-  
-}
-
-.Navbar ul li {
-
-  position: relative;
-  float: left;
-
-}
-
-
-.Navbar ul li a{
-
- text-decoration: none;
- color: black;
- display: block;
- padding: 20px;
- 
-}
-
-.Navbar ul li ul {
-
-  position: absolute;
-  left: 0;
-  width: 300px;
-  background-color: white;
-  display: none;
-  flex-direction: column;
-}
-
-.Navbar ul li:hover ul {
-
-  display: flex;
-  z-index: 5;
-
-}
 
 
 
 
 
-
-
-  
   .Navbar > .nav-logo {
     font-weight: 700;
     font-size: 21px;
@@ -119,6 +67,7 @@
 
    height: 30px;
    margin-left: 20px;
+   width: 130px;
   
   }
   
@@ -130,7 +79,7 @@
 
 .topIcon {
   font-size: 20px;
-  margin-right: 10px;
+  margin-right: 30px;
   color: #000000;
   cursor: pointer  ;
 }
@@ -141,6 +90,7 @@
   align-items: center;
   justify-content: center;
   margin-right: 20px;
+  width: 130px;
   
  
   

@@ -155,7 +155,7 @@ function Cards() {
         
         <div className={classes.texto}><p>Nossas Acomodações <br></br>
         <span className={classes.description}>Oferecemos dois espaços para reserva, a Aruna Casa Pirâmide e a Casa Refúgio Beija-Flor</span></p>
-        <a className={classes.button} href='/piramide'> Conheça as casas </a> 
+        <a className={classes.button} href='/quartos'> Conheça as casas </a> 
         </div>
         
     </div>

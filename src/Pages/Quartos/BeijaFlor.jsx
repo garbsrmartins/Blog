@@ -3,12 +3,12 @@ import { makeStyles} from '@material-ui/core'
 
 
 import Footer from '../../Footer/Footer'
-import ImageSlider from '../../Slider/Slider-Test'
+
 
 import Headerbeija from '../../Header2/HeaderBeija'
 import Cardsbeija from '../../Cards/Cardsbeija'
 
-import { SliderData } from '../../Slider/SliderData'
+
 
 
 
@@ -55,7 +55,7 @@ function Piramide() {
    <div className={classes.oppacity}>
 
 <Headerbeija/>
-<ImageSlider slides={SliderData}/>
+
 
 <Cardsbeija/>
 

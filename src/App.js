@@ -9,6 +9,9 @@ import Beija from "./Pages/Quartos/BeijaFlor";
 import Contato from "./Pages/Contato";
 import Footer from "./Footer/Footer";
 import Navbar from "./NavBar/Navbar";
+import Quartos from "./Pages/Quartos/Quartos";
+
+
 
 
 
@@ -16,10 +19,12 @@ import Navbar from "./NavBar/Navbar";
 function App() {
   return (
        <> 
-       <Navbar/>
+        <Navbar/>
+       
        
             <Routes>
             <Route path="/" element={<Home2/>}/>
+            <Route path="/quartos" element ={ <Quartos/>}/>
             <Route path="/piramide" element ={ <Piramide/>}/>
             <Route path="/beija-flor" element ={ <Beija/>}/>
             <Route path="/contato" element ={ <Contato/>}/>

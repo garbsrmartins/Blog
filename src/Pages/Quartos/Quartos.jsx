@@ -4,9 +4,9 @@ import { makeStyles} from '@material-ui/core'
 
 import Footer from '../../Footer/Footer'
 
-import HeaderPiramide from '../../Header2/HeaderPiramide'
+import HeaderQuartos from '../../Header2/HeaderQuartos'
+import CardsQuartos from '../../Cards/CardsQuartos'
 
-import CardsPiramide from '../../Cards/CardsPiramide'
 
 
 
@@ -17,7 +17,7 @@ const useStyles = makeStyles ((theme) => ({
 
   root: {
     minHeight: '100vh',
-   backgroundColor: '#FFE9A9',
+   backgroundColor: '#E5FBFF',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundAttachment: 'fixed',
@@ -38,7 +38,7 @@ oppacity: {
 
 }))
 
-function Piramide() {
+function Quartos() {
   
   const classes = useStyles ();
   return (
@@ -49,11 +49,10 @@ function Piramide() {
     <div className={classes.root}>
    <div className={classes.oppacity}>
  
-<HeaderPiramide/>
 
-<CardsPiramide/>
-
-  
+    <HeaderQuartos/>
+    <CardsQuartos/>
+    
    <Footer/>
     </div> 
     </div>
@@ -62,4 +61,4 @@ function Piramide() {
   )
 }
 
-export default Piramide
+export default Quartos

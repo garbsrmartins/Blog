@@ -11,10 +11,10 @@ const Navbar = () => {
       <a href="/"><img  className="nav-logo"  src={lotus} alt=""/></a>
       <div className={`nav-items ${isOpen && "open"}`}>
         <a href="/">Home</a>
-        
-         
-          <a href="/piramide">Aruna Casa Pirâmide</a>
-          <a href="/beija-flor">Casa Refúgio Beija-Flor</a>
+            
+                <a href='/quartos'>Quartos</a>
+                
+          
           
           
          <a href="/contato">Contato</a>

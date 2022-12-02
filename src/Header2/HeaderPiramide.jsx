@@ -50,7 +50,7 @@ const classes = useStyles ();
       
     <div className={classes.title}>
      
-   <div>Quartos</div>
+   <div>Aruna Casa Pirâmide</div>
     
     </div>
     
