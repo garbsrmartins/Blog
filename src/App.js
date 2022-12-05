@@ -11,6 +11,8 @@ import Footer from "./Footer/Footer";
 
 import Quartos from "./Pages/Quartos/Quartos";
 import Navbarmenu2 from "./components/menu/Navbarmenu";
+import Sabia from "./Pages/Quartos/Sabia";
+import Tucano from "./Pages/Quartos/Tucano"
 
 
 
@@ -29,6 +31,8 @@ function App() {
             <Route path="/piramide" element ={ <Piramide/>}/>
             <Route path="/beija-flor" element ={ <Beija/>}/>
             <Route path="/contato" element ={ <Contato/>}/>
+            <Route path="/sabia" element ={ <Sabia/>}/>
+            <Route path="/tucano" element ={ <Tucano/>}/>
            
              
           </Routes>
