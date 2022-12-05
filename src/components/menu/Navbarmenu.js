@@ -64,7 +64,7 @@ const Navbarmenu2 = () => {
                         <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Home </NavLink> 
                     </li>
                     
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="/quartos"> Quartos <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Quartos <FiChevronDown /> </Link>
                         <ul className={boxClassSubMenu.join(' ')} > 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/piramide`}> Aruna Piramide</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/beija-flor`}> Aruna Beija Flor </NavLink> </li>
