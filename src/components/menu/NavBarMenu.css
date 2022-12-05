@@ -220,6 +220,8 @@ li {
 .nav-logoCell {
   display: flex;
   width: 20vw;
+  margin: auto;
+  align-items: center;
 }
 
 ul.main-menu {
