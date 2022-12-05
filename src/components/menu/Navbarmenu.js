@@ -47,7 +47,7 @@ const Navbarmenu2 = () => {
                 
                 <div className="header__middle__menus">
                     <nav className="main-nav " >
-                    <img className='nav-logoCell' src={logo} alt='logo'/> 
+                    <a href='/'><img className='nav-logoCell' src={logo} alt='logo'/> </a>
                     {/* Responsive Menu Button */}
                     {isResponsiveclose === true ? <> 
                         
@@ -56,7 +56,7 @@ const Navbarmenu2 = () => {
                         <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > <FiAlignRight />   </span>
                     </>}
 
-                    <img className='nav-logo' src={logo} alt='logo'/> 
+                    <a href='/'><img className='nav-logo' src={logo} alt='logo'/> </a>
                     <ul className={boxClass.join(' ')}>
                     
                     
