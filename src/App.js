@@ -8,7 +8,7 @@ import Piramide from "./Pages/Quartos/Piramide";
 import Beija from "./Pages/Quartos/BeijaFlor";
 import Contato from "./Pages/Contato";
 import Footer from "./Footer/Footer";
-import Navbar from "./NavBar/Navbar";
+
 import Quartos from "./Pages/Quartos/Quartos";
 import Navbarmenu2 from "./components/menu/Navbarmenu";
 
