@@ -116,8 +116,8 @@ function Cardscontato() {
 
         
         <div className={classes.texto}>
-            <p>Contato <br></br>
-                    <span className={classes.description}>Endereço<br></br><br></br>
+            <p>Endereço
+                    <span className={classes.description}>
                                 Estrada Francisco Thomaz dos Santos, 390<br></br>
                                 Pântano do Sul, CEP 88067-700<br></br>
                                 Florianópolis - Santa Catarina - Brasil

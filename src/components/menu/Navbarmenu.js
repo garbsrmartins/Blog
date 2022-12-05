@@ -1,7 +1,8 @@
 import React,{useState} from 'react';
 import {NavLink, Link} from 'react-router-dom';
 import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
-import logo from '../../images/LogoNav.png';
+import logo from '../../images/LogoNav.png'
+
 import './NavBarMenu.css'
 
 
@@ -43,32 +44,37 @@ const Navbarmenu2 = () => {
 
                 {/* Add Logo  */}
                 
-
+                
                 <div className="header__middle__menus">
                     <nav className="main-nav " >
-
+                    <img className='nav-logoCell' src={logo} alt='logo'/> 
                     {/* Responsive Menu Button */}
                     {isResponsiveclose === true ? <> 
+                        
                         <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > <FiXCircle />   </span>
                     </> : <> 
                         <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > <FiAlignRight />   </span>
                     </>}
 
-
+                    <img className='nav-logo' src={logo} alt='logo'/> 
                     <ul className={boxClass.join(' ')}>
+                    
                     
                     <li  className="menu-item" >
                         <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Home </NavLink> 
                     </li>
                     
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Quartos <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="/quartos"> Quartos <FiChevronDown /> </Link>
                         <ul className={boxClassSubMenu.join(' ')} > 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/piramide`}> Aruna Piramide</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/beija-flor`}> Aruna Beija Flor </NavLink> </li>
                         </ul>
                     </li>
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={'/contato'}> Contato </NavLink> </li>
-                       
+                    <span className='icons'>
+                    <a href="https://www.instagram.com/arunaespacoregenerativo" target="_blank" rel="noreferrer" ><i className="topIcon fa-brands fa-instagram"></i></a>
+        <a href="https://linktr.ee/arunafloripa" target="_blank" rel="noreferrer" ><i className="topIcon fa-brands fa-airbnb"></i></a>
+                    </span>
                     </ul>
                     
                     

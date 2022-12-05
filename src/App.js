@@ -10,6 +10,7 @@ import Contato from "./Pages/Contato";
 import Footer from "./Footer/Footer";
 import Navbar from "./NavBar/Navbar";
 import Quartos from "./Pages/Quartos/Quartos";
+import Navbarmenu2 from "./components/menu/Navbarmenu";
 
 
 
@@ -19,8 +20,8 @@ import Quartos from "./Pages/Quartos/Quartos";
 function App() {
   return (
        <> 
-        <Navbar/>
-       
+        
+        <Navbarmenu2/>
        
             <Routes>
             <Route path="/" element={<Home2/>}/>
