@@ -253,7 +253,8 @@ ul.main-menu {
   color: rgb(0, 0, 0);
   padding: 6px;
   border-radius: 5px;
-  margin: 10px 40px ;
+  right:10px;
+  margin: 10px auto;
   cursor: pointer;
   position: relative;
   z-index: 10037;
