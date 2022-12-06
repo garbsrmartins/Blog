@@ -30,8 +30,12 @@ const useStyles = makeStyles ((theme) => ({
       fontFamily:'Montserrat',
       color: 'black',
 
-    },
+      "@media (max-width: 900px)": {
+        fontSize: '2em',
+      
 
+    },
+  }
     
 
 }))
