@@ -90,6 +90,19 @@ brand: {
     fontSize: '2em',
     margin: '10px 10px 50px 10px',
     color: 'black',
+},
+
+title2: {
+
+  paddingTop: '60px',
+  textAlign:'center',
+  fontSize: '3em',
+
+  "@media (max-width: 1280px)": {
+    fontSize: '2em',
+    paddingTop: '60px',
+   
+  },
 }
 
 
@@ -103,7 +116,7 @@ function CardsTucano() {
     <>
    
 
-       
+   <div className={classes.title2}> Suíte Tucano</div>
         <div className={classes.texto}><p>
         <span className={classes.description}>A suíte Tucano é uma acomodação no estilo rústico, que faz parte das estruturas do Aruna, um pequeno e
 exclusivo condomínio que é um verdadeiro refúgio aconchegante. Está localizado no alto da montanha,

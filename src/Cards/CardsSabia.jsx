@@ -89,7 +89,21 @@ brand: {
     fontSize: '2em',
     margin: '10px 10px 50px 10px',
     color: 'black',
+},
+
+title2: {
+
+  paddingTop: '60px',
+  textAlign:'center',
+  fontSize: '3em',
+
+  "@media (max-width: 1280px)": {
+    fontSize: '2em',
+    paddingTop: '60px',
+   
+  },
 }
+
 
 
 
@@ -101,7 +115,7 @@ function CardsSabia() {
   return (
     <>
    
-
+   <div className={classes.title2}> Suíte Sabiá</div>
         
         <div className={classes.texto}><p>
         <span className={classes.description}>A suíte Sabiá faz parte das estruturas do Aruna, um pequeno e exclusivo condomínio que é um verdadeiro

@@ -35,6 +35,12 @@ const useStyles = makeStyles ((theme) => ({
       
 
     },
+
+    "@media (max-width: 500px)": {
+      fontSize: '1.5em',
+    
+
+  },
   }
     
 

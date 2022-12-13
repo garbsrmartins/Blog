@@ -3,8 +3,8 @@ import { makeStyles} from '@material-ui/core'
 
 
 import Footer from '../../Footer/Footer'
-
 import HeaderPiramide from '../../Header2/HeaderPiramide'
+
 
 import CardsPiramide from '../../Cards/CardsPiramide'
 
@@ -16,11 +16,11 @@ const useStyles = makeStyles ((theme) => ({
     
 
   root: {
-    minHeight: '100vh',
+    
    backgroundColor: '#FFE9A9',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-    backgroundAttachment: 'fixed',
+    
+   
+    
     [theme.breakpoints.down("xs")]: {
         backgroundSize: 'cover',
            

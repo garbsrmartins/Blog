@@ -112,6 +112,19 @@ brand: {
     fontSize: '2em',
     margin: '10px 10px 50px 10px',
     color: 'black',
+},
+
+title2: {
+
+  paddingTop: '60px',
+  textAlign:'center',
+  fontSize: '3em',
+
+  "@media (max-width: 1280px)": {
+    fontSize: '2em',
+    paddingTop: '60px',
+   
+  },
 }
 
 
@@ -124,6 +137,7 @@ function Cardsbeija() {
     const classes = useStyles ();
   return (
     <>
+    <div className={classes.title2}> Casa Refúgio Beija-Flor</div>
     <div className={classes.cardsDiv}>
     <div className={classes.cards}>
 

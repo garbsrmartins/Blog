@@ -9,6 +9,7 @@ import { SliderData2 } from '../Slider/SliderData2';
 
 
 
+
 const useStyles = makeStyles ((theme) => ({
 
 
@@ -90,8 +91,20 @@ brand: {
     fontSize: '2em',
     margin: '10px 10px 50px 10px',
     color: 'black',
-}
+},
 
+title2: {
+
+  paddingTop: '60px',
+  textAlign:'center',
+  fontSize: '3em',
+
+  "@media (max-width: 1280px)": {
+    fontSize: '2em',
+    paddingTop: '60px',
+   
+  },
+}
 
 
 }))
@@ -100,10 +113,10 @@ function CardsPiramide() {
 
     const classes = useStyles ();
   return (
-    <>
    
-
-        
+   <>
+    
+   <div className={classes.title2}> Aruna Casa Pirâmide</div>
         <div className={classes.texto}><p>
         <span className={classes.description}>A Aruna Casa Pirâmide faz parte das estruturas do Aruna, um pequeno e exclusivo condomínio que é um verdadeiro refúgio aconchegante. Está localizado no alto da montanha, com o privilégio de uma vista exuberante para o mar e algumas ilhas da região. Isolado do sistema urbano, em meio a natureza preservada do sul da Ilha de Florianópolis, o Aruna foi no passado um Eco Spa, após uma grande reforma, mudamos a proposta para locações pontuais de algumas unidades.</span></p>
         
@@ -144,9 +157,10 @@ function CardsPiramide() {
         local ideal para tomar um café da manhã ou contemplar a maravilhosa vista do mar e natureza local.
 
 
-</span></p>
-         
+        </span></p>
         </div>
+         
+        
         
    
     
@@ -187,9 +201,9 @@ function CardsPiramide() {
         
    
     
+    
+    
     </>
-    
-    
     
     
 

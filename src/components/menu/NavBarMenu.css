@@ -16,9 +16,8 @@ body {
   align-items: center;
   background: rgb(255, 255, 255);
   font-family: 'Montserrat', sans-serif;
-  
   z-index: 3;
-  top:0;
+
   width: 100vw;
   text-decoration: none;
 }
@@ -103,6 +102,7 @@ li {
   display: inline-block;
   float: left;
 }
+
 .header__middle__menus {
   width: 100%;
   display: block;

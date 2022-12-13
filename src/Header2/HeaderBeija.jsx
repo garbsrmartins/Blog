@@ -14,7 +14,7 @@ const useStyles = makeStyles ((theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '40vh',
+    height: '70px',
     width: '100%',
     flexDirection: 'column'
     
@@ -48,7 +48,7 @@ const classes = useStyles ();
       
     <div className={classes.title}>
      
-   <div> Casa Refúgio Beija-Flor</div>
+   
     
     </div>
     

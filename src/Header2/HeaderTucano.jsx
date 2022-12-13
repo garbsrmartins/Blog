@@ -14,7 +14,7 @@ const useStyles = makeStyles ((theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '40vh',
+    height: '70px',
     backgroundSize: '100%',
     backgroundRepeat: 'no-repeat',
     width: '100%',
@@ -50,7 +50,7 @@ const classes = useStyles ();
       
     <div className={classes.title}>
      
-   <div>Suíte Tucano</div>
+   
     
     </div>
     
