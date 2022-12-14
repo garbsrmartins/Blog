@@ -9,6 +9,7 @@ import './Cards.css'
 
 
 
+
 const useStyles = makeStyles ((theme) => ({
 
 
@@ -115,7 +116,7 @@ function CardsTucano() {
   return (
     <>
    
-
+    
    <div className={classes.title2}> Suíte Tucano</div>
         <div className={classes.texto}><p>
         <span className={classes.description}>A suíte Tucano é uma acomodação no estilo rústico, que faz parte das estruturas do Aruna, um pequeno e
@@ -126,6 +127,7 @@ Spa, após uma grande reforma, mudamos a proposta para locações pontuais de al
         
         
     </div>
+    
     
    
 

@@ -2,8 +2,9 @@ import React from 'react'
 import { makeStyles} from '@material-ui/core'
 
 import './Cards.css'
-import ImageSlider from '../Slider/Slider-Test';
-import { SliderData } from '../Slider/SliderData';
+import Swiper from '../Swiper/Swiper';
+
+
 
 
 const useStyles = makeStyles ((theme) => ({
@@ -150,7 +151,8 @@ function Cardsbeija() {
     </div>
     </div>
 
-    <ImageSlider slides={SliderData}/>
+   <Swiper/>
+
     <div className={classes.cardsDiv1}>
     <div className={classes.cards}>
 

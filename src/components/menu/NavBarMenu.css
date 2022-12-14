@@ -180,6 +180,9 @@ li {
 @media (max-width:767px) { 
   .header__middle .active {color: #000000!important;}
   .nav-logoCell {display: none!important;}
+  .main-nav{
+
+    height: 50px;}
 }
 
 @media (min-width:992px) { 
