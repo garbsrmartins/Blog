@@ -43,6 +43,7 @@ oppacity: {
 
 }))
 
+
 function Piramide() {
   
   const classes = useStyles ();

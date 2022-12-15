@@ -4,8 +4,8 @@ import { makeStyles} from '@material-ui/core'
 
 
 import './Cards.css'
-import ImageSlider2 from '../Slider/Slider-Test2';
-import { SliderData2 } from '../Slider/SliderData2';
+
+import SwiperPiramide from '../Swiper/ImagesPiramide/Swiper';
 
 
 
@@ -122,7 +122,7 @@ function CardsPiramide() {
         
         
     </div>
-    <ImageSlider2 slides={SliderData2}/>
+   <SwiperPiramide/>
    
 
         

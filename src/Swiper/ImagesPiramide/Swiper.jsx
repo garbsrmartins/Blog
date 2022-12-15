@@ -1,12 +1,12 @@
 import React from 'react'
-import ProductImages from './components'
-import './Swiper.css'
-import {sliderImages} from './Images/index'
+import ProductImages from '../components'
+
+import { sliderPiramide } from './indexPiramide'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/thumbs'
 
-function Swiper() {
+function SwiperPiramide() {
   return (
     <div style={{
         height: '90vh',
@@ -27,10 +27,10 @@ function Swiper() {
 
       }}>
 
-        <ProductImages images={sliderImages}/>
+        <ProductImages images={sliderPiramide}/>
       </div>
     </div>
   )
 }
 
-export default Swiper
+export default SwiperPiramide
