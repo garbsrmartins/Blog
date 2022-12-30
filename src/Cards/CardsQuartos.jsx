@@ -4,10 +4,11 @@ import { makeStyles} from '@material-ui/core'
 
 
 import './Cards.css'
-import ImageSlider2 from '../Slider/Slider-Test2';
-import { SliderData2 } from '../Slider/SliderData2';
-import ImageSlider from '../Slider/Slider-Test';
-import { SliderData } from '../Slider/SliderData';
+import SwiperPiramide from '../Swiper/ImagesPiramide/Swiper';
+import Swiper from '../Swiper/Swiper';
+import SwiperSabia from '../Swiper/ImagesSuíteSabiá/sabia';
+import SwiperTucano from '../Swiper/ImagesSuíteTucano/tucano';
+
 
 
 
@@ -114,8 +115,23 @@ blue: {
 
   backgroundColor: '#E5FBFF',
   padding: '30px',
-}
+},
+title2: {
 
+  paddingTop: '60px',
+  textAlign:'center',
+  fontSize: '3em',
+  height: '30vh',
+  alignItems: 'center',
+  justifyContent: 'center',
+  display: 'flex',
+
+  "@media (max-width: 1280px)": {
+    fontSize: '2em',
+    paddingTop: '60px',
+   
+  },
+}
 
 
 }))
@@ -126,8 +142,9 @@ function CardsQuartos() {
   return (
     <>
    
-
+   <div className={classes.title2}> Quartos</div>
         <div className={classes.yellow}>
+        
         <div className={classes.texto}><p> Aruna Casa Piramide<br></br> <br></br>
         <span className={classes.description}>A Aruna Casa Pirâmide faz parte das estruturas do Aruna, um pequeno e exclusivo condomínio que é um verdadeiro refúgio aconchegante. Está localizado no alto da montanha, com o privilégio de uma vista exuberante para o mar e algumas ilhas da região. Isolado do sistema urbano, em meio a natureza preservada do sul da Ilha de Florianópolis, o Aruna foi no passado um Eco Spa, após uma grande reforma, mudamos a proposta para locações pontuais de algumas unidades.</span>
         
@@ -136,8 +153,8 @@ function CardsQuartos() {
         </div>
         
         
+    <SwiperPiramide/>
     
-    <ImageSlider2 slides={SliderData2}/>
     </div>
     <div className={classes.blue}>
     <div className={classes.texto}><p> Casa Refúgio Beija Flor<br></br> <br></br>
@@ -148,12 +165,35 @@ function CardsQuartos() {
         
         
     </div>
-    
-    <ImageSlider slides={SliderData}/>
+    <Swiper/>
+   
     </div>
    
-
+    <div className={classes.yellow}>
+        <div className={classes.texto}><p> Suíte Sabiá<br></br> <br></br>
+        <span className={classes.description}>A suíte Sabiá faz parte das estruturas do Aruna, um pequeno e exclusivo condomínio que é um verdadeiro refúgio aconchegante. Está localizado no alto da montanha, com o privilégio de uma vista exuberante para o mar e algumas ilhas da região. Isolado do sistema urbano, em meio a natureza preservada do sul da Ilha de Florianópolis, o Aruna foi no passado um Eco Spa, após uma grande reforma, mudamos a proposta para locações pontuais de algumas unidades.</span>
         
+        <a href="/sabia" className={classes.button}> Saiba Mais</a>
+        </p>
+        </div>
+        
+        
+    <SwiperSabia/>
+    
+    </div>
+      
+    <div className={classes.blue}>
+    <div className={classes.texto}><p> Suíte Tucano<br></br> <br></br>
+        <span className={classes.description}>A suíte Tucano é uma acomodação no estilo rústico, que faz parte das estruturas do Aruna, um pequeno e exclusivo condomínio que é um verdadeiro refúgio aconchegante. Está localizado no alto da montanha, com o privilégio de uma vista exuberante para o mar e algumas ilhas da região. Isolado do sistema urbano, em meio a natureza preservada do sul da Ilha de Florianópolis, o Aruna foi no passado um Eco Spa, após uma grande reforma, mudamos a proposta para locações pontuais de algumas unidades.</span>
+        
+        <a href="/tucano" className={classes.button}> Saiba Mais</a>
+        </p>
+        
+        
+    </div>
+    <SwiperTucano/>
+   
+    </div>
        
         
     
@@ -169,7 +209,7 @@ function CardsQuartos() {
 
         </span>
             <div className={classes.brand}>
-            <a href="https://api.whatsapp.com/send?phone=5548992061471" target="_blank" rel="noreferrer" ><i class="icon2 fa-solid fa-phone"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5548992061471" target="_blank" rel="noreferrer"><i class="icon2 fa-brands fa-whatsapp"></i></a>
         <a href="https://linktr.ee/arunafloripa" target="_blank" rel="noreferrer" ><i className="icon2 fa-brands fa-airbnb"></i></a>
         </div>
      

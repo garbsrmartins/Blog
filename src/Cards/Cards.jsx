@@ -169,7 +169,7 @@ function Cards() {
         <div className={classes.texto}><p>Faça sua reserva <br></br>
         <span className={classes.description}>Você pode fazer a reserva entrando em contato diretamente conosco ou pelas empresas parceiras</span></p>
         <div className={classes.brand}>
-        <a href="https://api.whatsapp.com/send?phone=5548992061471" target="_blank" rel="noreferrer" ><i class="icon fa-solid fa-phone"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=5548992061471" target="_blank" rel="noreferrer" ><i class="icon fa-brands fa-whatsapp"></i></a>
         <a href="https://linktr.ee/arunafloripa" target="_blank" rel="noreferrer" ><i className="icon fa-brands fa-airbnb"></i></a>
         </div>
         </div>

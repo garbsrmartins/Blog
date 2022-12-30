@@ -4,7 +4,7 @@ import { makeStyles} from '@material-ui/core'
 
 import Footer from '../../Footer/Footer'
 
-import HeaderQuartos from '../../Header2/HeaderQuartos'
+
 import CardsQuartos from '../../Cards/CardsQuartos'
 
 
@@ -50,7 +50,7 @@ function Quartos() {
    <div className={classes.oppacity}>
  
 
-    <HeaderQuartos/>
+    
     <CardsQuartos/>
     
    <Footer/>

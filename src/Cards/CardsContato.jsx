@@ -124,6 +124,7 @@ function Cardscontato() {
                                 <br></br><br></br>
                                 Telefone<br></br> <br></br>
                                 Móvel e WhatsApp: <a className={classes.link} href="https://api.whatsapp.com/send?phone=5548992061471">+55 48 99206-1471</a>
+                                <a href="https://api.whatsapp.com/send?phone=5548992061471" target="_blank" rel="noreferrer"><i class="topIconCon fa-brands fa-whatsapp"></i></a>
                     </span>
             </p>
             <p>

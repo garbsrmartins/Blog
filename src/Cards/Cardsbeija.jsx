@@ -213,7 +213,7 @@ Temos dois cachorros de porte médio, super dóceis e acostumados ao convívio d
 
         </span>
             <div className={classes.brand}>
-        <i class="icon2 fa-solid fa-phone"></i>
+            <a href="https://api.whatsapp.com/send?phone=5548992061471" target="_blank" rel="noreferrer"><i class="icon2 fa-brands fa-whatsapp"></i></a>
         <a href="https://www.airbnb.com.br/rooms/760241883997622770?_set_bev_on_new_domain=1668790515_ZTZiZDkxOTM2Y2U0&source_impression_id=p3_1668952126_r3vx4HqSE%2BAT7y2v" target="_blank" rel="noreferrer" ><i className="icon2 fa-brands fa-airbnb"></i></a>
         </div>
      

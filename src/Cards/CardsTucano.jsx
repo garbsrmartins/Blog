@@ -198,7 +198,7 @@ outrora funcionava como um Spa de Terapias Naturais. O significado de Aruna vem 
 
         </span>
             <div className={classes.brand}>
-            <a href="https://api.whatsapp.com/send?phone=5548992061471" target="_blank" rel="noreferrer" ><i class="icon2 fa-solid fa-phone"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5548992061471" target="_blank" rel="noreferrer"><i class="icon2 fa-brands fa-whatsapp"></i></a>
         <a href="https://www.airbnb.com.br/rooms/719411544469127551?_set_bev_on_new_domain=1669117752_MWI1MDdiMzMxNTdi&source_impression_id=p3_1670260174_MEj721%2BqvYzHoWTx" target="_blank" rel="noreferrer" ><i className="icon2 fa-brands fa-airbnb"></i></a>
         </div>
      
