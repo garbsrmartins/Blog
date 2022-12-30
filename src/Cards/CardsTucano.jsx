@@ -4,6 +4,7 @@ import { makeStyles} from '@material-ui/core'
 
 
 import './Cards.css'
+import SwiperTucano from '../Swiper/ImagesSuíteTucano/tucano';
 
 
 
@@ -128,7 +129,7 @@ Spa, após uma grande reforma, mudamos a proposta para locações pontuais de al
         
     </div>
     
-    
+    <SwiperTucano/>
    
 
         

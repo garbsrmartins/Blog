@@ -4,6 +4,7 @@ import { makeStyles} from '@material-ui/core'
 
 
 import './Cards.css'
+import SwiperSabia from '../Swiper/ImagesSuíteSabiá/sabia';
 
 
 
@@ -127,7 +128,7 @@ proposta para locações pontuais de algumas unidades.</span></p>
         
     </div>
 
-   
+   <SwiperSabia/>
 
         
         <div className={classes.texto}><p> O espaço
